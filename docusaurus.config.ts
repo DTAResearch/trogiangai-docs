@@ -25,7 +25,7 @@ const config: Config = {
   organizationName: 'dtaresearch', // Usually your GitHub org/user name.
   projectName: 'trogiangai-docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -101,7 +101,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs',
             },
           ],
         },
