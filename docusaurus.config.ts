@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Trợ giảng AI',
-  tagline: 'Dinosaurs are cool',
+  tagline: ' Hệ thống được thiết kế để hỗ trợ quản lý và tổ chức việc học tập trực tuyến một cách hiệu quả.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
