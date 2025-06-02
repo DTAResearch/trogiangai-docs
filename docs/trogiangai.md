@@ -80,7 +80,7 @@ Nếu không biết cách viết Prompt, học sinh có thể sử dụng Prompt
 
 :::
 
-**Cấu trúc** câu trả lời của hệ thống sẽ bao gồm: `Tóm tắt`, `Giải thích chi tiết`, `Ví dụ/Ứng dụng`. Kết thúc mỗi câu trả lời thì sẽ đưa ra phần gợi mở các hướng tìm hiểu:
+**Cấu trúc** câu trả lời của hệ thống sẽ bao gồm: `Tóm tắt`, `Giải thích chi tiết`, `Ví dụ/Ứng dụng`. **Kết thúc mỗi câu trả lời thì sẽ đưa ra phần gợi mở các hướng tìm hiểu**:
 
 ![Expand](/img/expand.png)
 

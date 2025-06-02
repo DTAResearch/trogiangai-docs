@@ -8,7 +8,8 @@ sidebar_position: 1
 Tài khoản sinh viên được thiết kế để hỗ trợ người học trong việc theo dõi tiến độ học tập và tham gia các lớp học. Các tính năng bao gồm:
 - **Thống kê cá nhân.**
 - **Quản lý Học phần:** `Trợ lý`, `Kiến thức`
-- **Quản lý Lớp học:** `Phân tích`, `Thành viên`
+- **Quản lý Phản hồi.** *(coming soon)*
+
 
 :::
 
@@ -55,12 +56,6 @@ Từ danh sách trợ lý, học sinh có thể xem lịch sử các đoạn cha
   <em>Giao diện quản trị danh sách trợ lý.</em>
 </p>
 
-**Tìm kiếm thông tin:** Tìm kiếm thông tin `Trợ lý` theo ***tên***.
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện tìm kiếm trợ lý theo tên.</em>
-</p>
-
 ### b. Kiến thức
 Xem danh sách: Xem các Kiến thức có trong hệ thống.
 
@@ -68,12 +63,6 @@ Xem danh sách: Xem các Kiến thức có trong hệ thống.
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Kiến thức.</em>
-</p>
-
-Tìm kiếm thông tin: Tìm kiếm thông tin Kiến thức theo tên.
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện tìm kiếm kiến thức theo tên.</em>
 </p>
 
 
