@@ -91,12 +91,8 @@ Dùng để tạo bài tập, đề ôn, kiểm tra nhanh kiến thức và nh�
 **Prompt mẫu**
 
 :::tip
-
 **Trợ giảng AI: Cơ sở dữ liệu (Kiểm tra trắc nghiệm)**
-> ***Bắt đầu làm bài kiểm tra.***
-
-**Trợ giảng AI: Cơ sở dữ liệu (Kiểm tra lý thuyết)**
-> ***Tạo 5 câu hỏi về kiến thức cơ sở dữ liệu trong chương 3.***
+> ***Kiểm tra 30 câu trắc nghiệm về kiến thức cơ sở dữ liệu trong chương 3: Bảo mật và phân quyền.***
 
 :::
 
