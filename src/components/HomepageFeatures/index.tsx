@@ -19,16 +19,7 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
-  // {
-  //   title: 'Focus on What Matters',
-  //   Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-  //   description: (
-  //     <>
-  //       Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-  //       ahead and move your docs into the <code>docs</code> directory.
-  //     </>
-  //   ),
-  // },
+
   {
     title: 'Tập trung hỗ trợ học tập cho sinh viên',
     Svg: require('@site/static/img/SV.svg').default,
@@ -65,14 +56,35 @@ function Feature({ title, Svg, description }: FeatureItem) {
 
 export default function HomepageFeatures(): ReactNode {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+    <>
+      {/* Features Section */}
+      <section className={styles.features}>
+        <div className="container">
+          <div className="row">
+            {FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      {/* Video Section */}
+      <section className={styles.features} style={{ marginTop: '2rem' }}>
+        <div className="container text--center">
+          <Heading as="h2">Video giới thiệu Trợ giảng AI</Heading>
+          <div className="margin-top--md">
+            <iframe
+              width="100%"
+              height="500"
+              src="https://www.youtube.com/embed/4-dCd6G1Cso"
+              title="Video giới thiệu Trợ giảng AI"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Tài khoản sinh viên
+# Chức năng theo tài khoản sinh viên
 
 :::info
 
