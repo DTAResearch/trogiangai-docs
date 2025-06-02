@@ -4,7 +4,7 @@ sidebar_position: 1
 # Tổng quan
 
 ## Giới thiệu chung
-Hệ thống chat.hoctiep.com là một nền tảng tiên tiến được thiết kế để hỗ trợ sinh viên học tập thông qua việc tương tác trực tiếp với các môn học. Đây là một công cụ học tập hiện đại, giúp sinh viên tiếp cận kiến thức một cách chủ động, nâng cao năng lực tự học và khả năng quản lý, kiểm soát tự học của giáo viên, nhà trường. Thay vì chỉ học qua các tài liệu truyền thống, sinh viên có thể trò chuyện với hệ thống để hỏi các khái niệm, lấy ví dụ, giải đáp thắc mắc, tự kiểm tra đánh giá, và hỗ trợ giải bài tập, làm dự án, lấy nhận xét và chấm điểm, tất cả ngay trong giao diện chat. Chat đóng vai trò của một gia sư, giáo viên để hỗ trợ sinh viên mọi lúc mọi nơi, đồng thời có thể đóng nhiều vai khác để giúp sinh viên học tập, nghiên cứu.
+Hệ thống [chat.hoctiep.com](https://chat.hoctiep.com/) là một nền tảng tiên tiến được thiết kế để hỗ trợ sinh viên học tập thông qua việc tương tác trực tiếp với các môn học. Đây là một công cụ học tập hiện đại, giúp sinh viên tiếp cận kiến thức một cách chủ động, nâng cao năng lực tự học và khả năng quản lý, kiểm soát tự học của giáo viên, nhà trường. Thay vì chỉ học qua các tài liệu truyền thống, sinh viên có thể trò chuyện với hệ thống để hỏi các khái niệm, lấy ví dụ, giải đáp thắc mắc, tự kiểm tra đánh giá, và hỗ trợ giải bài tập, làm dự án, lấy nhận xét và chấm điểm, tất cả ngay trong giao diện chat. Chat đóng vai trò của một gia sư, giáo viên để hỗ trợ sinh viên mọi lúc mọi nơi, đồng thời có thể đóng nhiều vai khác để giúp sinh viên học tập, nghiên cứu.
 
 
 ## Các tính năng nổi bật của Hệ thống Chat:

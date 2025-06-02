@@ -1,8 +1,8 @@
 {
-  "label": "Hệ thống Trợ giảng AI",
-  "position": 2,
+  "label": "Hệ thống Chat AI",
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Tài liệu về hệ thống Trợ giảng AI"
+    "description": "Tài liệu về hệ thống Chat AI"
   }
 }

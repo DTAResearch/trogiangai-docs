@@ -5,10 +5,13 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Trợ giảng AI',
-  tagline: ' Hệ thống được thiết kế để hỗ trợ quản lý và tổ chức việc học tập trực tuyến một cách hiệu quả.',
-  favicon: 'img/favicon.ico',
+  // title: 'Trợ giảng AI',
+  // tagline: ' Hệ thống được thiết kế để hỗ trợ quản lý và tổ chức việc học tập trực tuyến một cách hiệu quả.',
+  // favicon: 'img/favicon.ico',
 
+  title: 'Trợ giảng AI',
+  tagline: 'Hệ thống được thiết kế để hỗ trợ quản lý và tổ chức việc học tập trực tuyến một cách hiệu quả.',
+  favicon: 'img/logo.ico',
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4

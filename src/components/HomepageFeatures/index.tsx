@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
@@ -11,38 +11,45 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Dễ sử dụng cho giảng viên',
+    Svg: require('@site/static/img/GV.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Giao diện trực quan, thao tác đơn giản giúp giảng viên dễ dàng tạo giáo án, theo dõi tiến độ học tập và tương tác với sinh viên mà không cần kỹ năng công nghệ chuyên sâu.
+      </>
+    ),
+  },
+  // {
+  //   title: 'Focus on What Matters',
+  //   Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+  //   description: (
+  //     <>
+  //       Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+  //       ahead and move your docs into the <code>docs</code> directory.
+  //     </>
+  //   ),
+  // },
+  {
+    title: 'Tập trung hỗ trợ học tập cho sinh viên',
+    Svg: require('@site/static/img/SV.svg').default,
+    description: (
+      <>
+        Trợ giảng AI phân tích dữ liệu học tập để đưa ra gợi ý, phản hồi và điều chỉnh nội dung giảng dạy phù hợp với từng sinh viên, giúp cá nhân hóa quá trình học tập.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Tích hợp công nghệ AI hiện đại',
+    Svg: require('@site/static/img/AI.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Ứng dụng trí tuệ nhân tạo trong xử lý ngôn ngữ, phân tích dữ liệu và hỗ trợ ra quyết định, Trợ giảng AI mang đến một trải nghiệm học tập và giảng dạy hiệu quả, thông minh và linh hoạt.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
