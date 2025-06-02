@@ -26,7 +26,7 @@ Hệ thống [chat.hoctiep.com](https://chat.hoctiep.com/) là một nền tản
 - Hệ thống Chat hoạt động trực tuyến, cho phép sinh viên truy cập và học tập bất kỳ lúc nào, chỉ cần có kết nối Internet.
 - Giao diện thân thiện, dễ sử dụng trên cả máy tính và thiết bị di động.
 
-Hệ thống Chat không chỉ hoạt động độc lập mà còn được tích hợp chặt chẽ với hệ thống LMS để tạo ra một môi trường học tập toàn diện. LMS là nơi quản lý các lớp học, môn học, và tiến độ học tập của sinh viên, trong khi hệ thống Chat đóng vai trò là công cụ hỗ trợ học tập tương tác.
+Hệ thống Chat không chỉ hoạt động độc lập mà còn được tích hợp chặt chẽ với hệ thống Trợ giảng AI để tạo ra một môi trường học tập toàn diện. Trợ giảng AI là nơi quản lý các lớp học, môn học, và tiến độ học tập của sinh viên, trong khi hệ thống Chat đóng vai trò là công cụ hỗ trợ học tập tương tác.
 
 ## 2. Học với Trợ giảng AI qua Chat
 
