@@ -39,7 +39,16 @@ Xem báo cáo kết quả học tập: Sinh viên có thể theo dõi tiến đ�
   <em>Giao diện tìm kiếm học phần theo tên.</em>
 </p>
 
-### a. Trợ lý
+### a. Kiến thức
+Xem danh sách: Xem các Kiến thức có trong hệ thống.
+
+![Lịch sử chat](/img/hocsinh/kienthuc.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện quản trị danh sách Kiến thức.</em>
+</p>
+
+### b. Trợ lý
 **Xem danh sách:** Xem các `Trợ lý` có trong hệ thống.
 
 ![Danh sách trợ lý](/img/hocsinh/dstroly.png)
@@ -47,6 +56,9 @@ Xem báo cáo kết quả học tập: Sinh viên có thể theo dõi tiến đ�
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách trợ lý.</em>
 </p>
+:::warning
+Trợ lý giảng dạy theo từng chương sẽ trình bày bài học dựa trên từng slide, ví dụ như `ISTQB Chương 6`. Tuy nhiên, đôi khi trợ lý có thể chuyển slide không theo đúng thứ tự liên tiếp. Để khắc phục tình trạng này, bạn hãy tương tác lại qua chat và yêu cầu trợ lý chuyển đúng đến slide bạn đang học bằng cú pháp: Slide [Số trang] là [Tiêu đề slide]. Ví dụ: Slide 5 là Testing by developers.
+:::
 
 Từ danh sách trợ lý, học sinh có thể xem lịch sử các đoạn chat đã tạo trước đó, truy cập đến đoạn chat cũ, tạo mới đoạn chat với trợ lý đã chọn.
 
@@ -56,13 +68,8 @@ Từ danh sách trợ lý, học sinh có thể xem lịch sử các đoạn cha
   <em>Giao diện quản trị danh sách trợ lý.</em>
 </p>
 
-### b. Kiến thức
-Xem danh sách: Xem các Kiến thức có trong hệ thống.
 
-![Lịch sử chat](/img/hocsinh/kienthuc.png)
 
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện quản trị danh sách Kiến thức.</em>
-</p>
+
 
 

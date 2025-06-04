@@ -24,7 +24,7 @@ Sinh viên:
 
 :::warning
 
- Hiện tại hệ thống chỉ hỗ trợ đăng nhập bằng `gmail`.
+Hiện tại hệ thống chỉ hỗ trợ đăng nhập bằng `gmail`.
 
 :::
 
