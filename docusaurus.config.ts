@@ -11,7 +11,7 @@ const config: Config = {
 
   title: 'Trợ giảng AI',
   tagline: 'Như một "giảng viên ảo", hệ thống hỗ trợ sinh viên tự học theo học phần, trả lời thắc mắc và gợi ý nội dung trọng tâm.',
-  favicon: 'img/logo.ico',
+  favicon: 'img/ico/logo.ico',
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4

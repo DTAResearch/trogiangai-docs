@@ -32,7 +32,7 @@ Hệ thống Chat không chỉ hoạt động độc lập mà còn được tí
 
 Chức năng Chat được xây dựng theo từng mô hình được đào tạo theo dữ liệu, tài liệu đặc thù và riêng biệt của từng môn học. Hỗ trợ người dùng học lý thuyết, ôn tập bài học và kiểm tra kiến thức trong quá trình học tập.
 
-![Giao diện học với AI qua Chat](/img/manhinhchat.gif)
+![Giao diện học với AI qua Chat](/img/gif/manhinhchat.gif)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện học với AI qua Chat.</em>
@@ -66,7 +66,7 @@ Dùng để hỏi khái niệm, giải thích kiến thức, xin ví dụ minh h
 
 Nếu không biết cách viết Prompt, học sinh có thể sử dụng Prompt sẵn có của hệ thống
 
-![Prompt](/img/prompt.png)
+![Prompt](/img/png/prompt.png)
 
 **Prompt mẫu:**
 
@@ -82,7 +82,7 @@ Nếu không biết cách viết Prompt, học sinh có thể sử dụng Prompt
 
 **Cấu trúc** câu trả lời của hệ thống sẽ bao gồm: `Tóm tắt`, `Giải thích chi tiết`, `Ví dụ/Ứng dụng`. **Kết thúc mỗi câu trả lời thì sẽ đưa ra phần gợi mở các hướng tìm hiểu**:
 
-![Expand](/img/expand.png)
+![Expand](/img/png/expand.png)
 
 **Trợ giảng Kiểm tra:**
 

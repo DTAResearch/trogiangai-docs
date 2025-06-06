@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 # Chức năng theo tài khoản sinh viên
 
@@ -16,7 +16,7 @@ Tài khoản sinh viên được thiết kế để hỗ trợ người học tr
 ## 1. Thống kê cá nhân
 Xem báo cáo kết quả học tập: Sinh viên có thể theo dõi tiến độ được lịch sử cuộc hội thoại của mình. Trong tương lai sản phẩm sẽ phát triển để sinh viên có thể xem được thống kê của bản thân và thống kê được kết quả học tập của mình (điểm yếu, điểm cần cải thiện)
 
-![Thống kê cá nhân](/img/hocsinh/thongke.png)
+![Thống kê cá nhân](/img/png/thongke.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện thống kê cá nhân.</em>
@@ -25,7 +25,7 @@ Xem báo cáo kết quả học tập: Sinh viên có thể theo dõi tiến đ�
 ## 2. Quản lý Học phần
 **Xem danh sách:** Xem các Học phần có trong hệ thống.
 
-![Học phần sinh viên](/img/hocsinh/hocphan.png)
+![Học phần sinh viên](/img/png/hocphan.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện danh sách Học phần.</em>
@@ -33,7 +33,7 @@ Xem báo cáo kết quả học tập: Sinh viên có thể theo dõi tiến đ�
 
 **Tìm kiếm thông tin:** Tìm kiếm thông tin chương trình đào tạo theo tên, bộ lọc theo Học kỳ hoặc theo Chương trình đào tạo.
 
-![Tìm kiếm thông tin theo tên](/img/hocsinh/timkiemhocphantheoten.png)
+![Tìm kiếm thông tin theo tên](/img/png/timkiemhocphantheoten.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện tìm kiếm học phần theo tên.</em>
@@ -42,7 +42,7 @@ Xem báo cáo kết quả học tập: Sinh viên có thể theo dõi tiến đ�
 ### a. Kiến thức
 Xem danh sách: Xem các Kiến thức có trong hệ thống.
 
-![Lịch sử chat](/img/hocsinh/kienthuc.png)
+![Lịch sử chat](/img/png/kienthuc.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Kiến thức.</em>
@@ -51,7 +51,7 @@ Xem danh sách: Xem các Kiến thức có trong hệ thống.
 ### b. Trợ lý
 **Xem danh sách:** Xem các `Trợ lý` có trong hệ thống.
 
-![Danh sách trợ lý](/img/hocsinh/dstroly.png)
+![Danh sách trợ lý](/img/png/dstroly.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách trợ lý.</em>
@@ -62,7 +62,7 @@ Trợ lý giảng dạy theo từng chương sẽ trình bày bài học dựa t
 
 Từ danh sách trợ lý, học sinh có thể xem lịch sử các đoạn chat đã tạo trước đó, truy cập đến đoạn chat cũ, tạo mới đoạn chat với trợ lý đã chọn.
 
-![Lịch sử chat](/img/hocsinh/lichsuchat.png)
+![Lịch sử chat](/img/png/lichsuchat.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách trợ lý.</em>

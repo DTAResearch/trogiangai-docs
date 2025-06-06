@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Dễ sử dụng cho giảng viên',
-    Svg: require('@site/static/img/GV.svg').default,
+    Svg: require('@site/static/img/svg/GV.svg').default,
     description: (
       <>
         Giao diện trực quan, thao tác đơn giản giúp giảng viên dễ dàng tạo giáo án, theo dõi tiến độ học tập và tương tác với sinh viên mà không cần kỹ năng công nghệ chuyên sâu.
@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
 
   {
     title: 'Tập trung hỗ trợ học tập cho sinh viên',
-    Svg: require('@site/static/img/SV.svg').default,
+    Svg: require('@site/static/img/svg/SV.svg').default,
     description: (
       <>
         Trợ giảng AI phân tích dữ liệu học tập để đưa ra gợi ý, phản hồi và điều chỉnh nội dung giảng dạy phù hợp với từng sinh viên, giúp cá nhân hóa quá trình học tập.
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Tích hợp công nghệ AI hiện đại',
-    Svg: require('@site/static/img/AI.svg').default,
+    Svg: require('@site/static/img/svg/AI.svg').default,
     description: (
       <>
         Ứng dụng trí tuệ nhân tạo trong xử lý ngôn ngữ, phân tích dữ liệu và hỗ trợ ra quyết định, Trợ giảng AI mang đến một trải nghiệm học tập và giảng dạy hiệu quả, thông minh và linh hoạt.
