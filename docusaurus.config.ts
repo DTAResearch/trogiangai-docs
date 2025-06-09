@@ -74,12 +74,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/logo.png',
+    image: 'img/ico/logo.ico',
     navbar: {
       title: 'Trợ giảng AI',
       logo: {
         alt: 'Tro giang AI Logo',
-        src: 'img/logo.png',
+        src: 'img/ico/logo.ico',
       },
       items: [
         {

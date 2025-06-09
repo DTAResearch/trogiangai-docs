@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# Chức năng theo tài khoản sinh viên
+# Chức năng của Sinh viên
 
 :::info
 
@@ -68,8 +68,35 @@ Từ danh sách trợ lý, học sinh có thể xem lịch sử các đoạn cha
   <em>Giao diện quản trị danh sách trợ lý.</em>
 </p>
 
+#### Xem nội dung bài giảng
 
+Học sinh có thể truy cập vào xem bài giảng hoặc làm bài kiểm tra bằng cách chọn vào mô hình trợ lý.
 
+![Bài giảng](/img/png/baigiang.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện Bài giảng.</em>
+</p>
+
+#### Làm bài kiểm tra
+
+Học sinh có thể bắt đầu kiểm tra bằng cách chọn **Làm bài kiểm tra**
+
+Các câu hỏi sẽ được tạo tự động bằng AI từ dữ liệu bài giảng, bao gồm 20 câu hỏi: `Trắc nghiệm`, `Điền chỗ trống` và `Tự luận`.
+
+![Giao diện câu hỏi kiểm tra](/img/gif/questionTest.gif)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện Các dạng câu hỏi kiểm tra.</em>
+</p>
+
+Sau khi Sinh viên hoàn thành hết 20 câu kiểm tra tợ lý AI sẽ chấm bài đưa ra `Điểm số`, `Tỷ lệ đúng`, `Thời gian`, `Nhận xét tổng quan`, `Kiến thức đã nắm được`, `Cần Cải Thiện`, `Gợi ý cải thiện`, Xem chi tiết đáp án từng câu và giải thích đáp án.
+
+![Giao diện kiểm tra với AI](/img/gif/testwithAI.gif)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện kiểm tra với AI.</em>
+</p>
 
 
 

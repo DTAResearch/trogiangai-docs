@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# Chức năng theo tài khoản Admin
+# Chức năng của Quản trị viên
 
 :::info
 
