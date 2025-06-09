@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 # Chức năng của Sinh viên
 
@@ -89,7 +89,7 @@ Các câu hỏi sẽ được tạo tự động bằng AI từ dữ liệu bài
 
 Sau khi Sinh viên hoàn thành hết 20 câu kiểm tra tợ lý AI sẽ chấm bài đưa ra `Điểm số`, `Tỷ lệ đúng`, `Thời gian`, `Nhận xét tổng quan`, `Kiến thức đã nắm được`, `Cần Cải Thiện`, `Gợi ý cải thiện`, Xem chi tiết đáp án từng câu và giải thích đáp án.
 
-<!-- ![Giao diện kiểm tra với AI](/img/gif/testwithAI.gif) -->
+![Giao diện kiểm tra với AI](/img/gif/testwithAI.gif)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện kiểm tra với AI.</em>
