@@ -69,7 +69,7 @@ Từ danh sách trợ lý, học sinh có thể xem lịch sử các đoạn cha
 
 Học sinh có thể truy cập vào xem bài giảng hoặc làm bài kiểm tra bằng cách chọn vào mô hình trợ lý.
 
-![Bài giảng](/img/png/baigiang.png)
+![Bài giảng](/img/gif/baiGiang.gif)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Bài giảng.</em>
