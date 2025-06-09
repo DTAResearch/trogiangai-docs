@@ -7,7 +7,7 @@ sidebar_position: 3
 
 Tài khoản sinh viên được thiết kế để hỗ trợ người học trong việc theo dõi tiến độ học tập và tham gia các lớp học. Các tính năng bao gồm:
 - **Thống kê cá nhân.**
-- **Quản lý Học phần:** `Trợ lý`, `Kiến thức`
+- **Quản lý Học phần:** `Kiến thức`, `Trợ lý (Bài giảng, Kiểm tra)`
 - **Quản lý Phản hồi.** *(coming soon)*
 
 
@@ -56,9 +56,6 @@ Xem danh sách: Xem các Kiến thức có trong hệ thống.
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách trợ lý.</em>
 </p>
-:::warning
-Trợ lý giảng dạy theo từng chương sẽ trình bày bài học dựa trên từng slide, ví dụ như `ISTQB Chương 6`. Tuy nhiên, đôi khi trợ lý có thể chuyển slide không theo đúng thứ tự liên tiếp. Để khắc phục tình trạng này, bạn hãy tương tác lại qua chat và yêu cầu trợ lý chuyển đúng đến slide bạn đang học bằng cú pháp: Slide [Số trang] là [Tiêu đề slide]. Ví dụ: Slide 5 là Testing by developers.
-:::
 
 Từ danh sách trợ lý, học sinh có thể xem lịch sử các đoạn chat đã tạo trước đó, truy cập đến đoạn chat cũ, tạo mới đoạn chat với trợ lý đã chọn.
 
