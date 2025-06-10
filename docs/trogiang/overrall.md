@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Tổng quan
 
-Hệ thống Trợ giảng AI này được thiết kế để hỗ trợ quản lý và tổ chức việc học tập trực tuyến một cách hiệu quả.
+Như một "giảng viên ảo", hệ thống hỗ trợ sinh viên tự học theo học phần, trả lời thắc mắc và gợi ý nội dung trọng tâm.
 
 Giao diện hệ thống gồm: Vùng hiển thị chính, thanh ngang tác vụ và menu các tabs.
 
