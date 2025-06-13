@@ -1,11 +1,11 @@
 ---
 sidebar_position: 3
 ---
-# Chức năng của Giáo viên
+# Chức năng của Giảng viên/Giáo viên
 
 :::info
 
-Tài khoản Giáo viên được thiết kế để hỗ trợ giảng viên trong việc quản lý lớp học và trợ lý tương ứng mà họ phụ trách. Các tính năng bao gồm:
+Tài khoản Giảng viên/Giáo viên được thiết kế để hỗ trợ giảng viên/giáo viên trong việc quản lý lớp học và trợ lý tương ứng mà họ phụ trách. Các tính năng bao gồm:
 
 - **Quản lý Học phần**
 - **Quản lý Lớp học**
@@ -14,7 +14,7 @@ Tài khoản Giáo viên được thiết kế để hỗ trợ giảng viên tr
 :::
 ## 1. Quản lý Học phần
 
-Xem danh sách các **`Học phần`** giáo viên được giao có trong hệ thống.
+Xem danh sách các **`Học phần`** giảng viên/giáo viên được giao có trong hệ thống.
 
 Tìm kiếm thông tin chương trình đào tạo theo tên, bộ lọc theo Học kỳ hoặc theo Chương trình đào tạo.
 
@@ -26,7 +26,7 @@ Tìm kiếm thông tin chương trình đào tạo theo tên, bộ lọc theo H�
 
 ### a. Trợ giảng
 
-Giáo viên có thể xem danh sách các **`Trợ giảng`** có trong hệ thống và tìm kiếm thông tin **`Trợ giảng`** theo tên.
+Giảng viên/Giáo viên có thể xem danh sách các **`Trợ giảng`** có trong hệ thống và tìm kiếm thông tin **`Trợ giảng`** theo tên.
 
 ![Giao diện quản trị danh sách Trợ giảng](/img/png/GV_dstrogiang.png)
 
@@ -49,7 +49,7 @@ Tạo mới trợ giảng bao gồm các thông tin: cơ bản, nâng cao, bài 
     *prompt mẫu:*
 
     ```
-    Bạn là một trợ giảng AI cho giảng viên môn "Cấu trúc dữ liệu và giải thuật" tại một trường đại học.
+    Bạn là một trợ giảng AI cho giảng viên/giáo viên môn "Cấu trúc dữ liệu và giải thuật" tại một trường đại học.
     Môn học này được giảng dạy cho sinh viên năm hai ngành Công nghệ thông tin.
     Mục tiêu là giúp sinh viên nắm vững các khái niệm như: danh sách liên kết, cây nhị phân, đồ thị, thuật toán tìm kiếm và sắp xếp, phân tích độ phức tạp thuật toán.
 
@@ -78,7 +78,7 @@ Tạo mới trợ giảng bao gồm các thông tin: cơ bản, nâng cao, bài 
 </p>
 
 ### b. Học liệu
-Giáo viên có thể xem các **`Học liệu`** có trong hệ thống và tìm kiếm thông tin **`Học liệu`** theo tên.
+Giảng viên/Giáo viên có thể xem các **`Học liệu`** có trong hệ thống và tìm kiếm thông tin **`Học liệu`** theo tên.
 
 ![Giao diện danh sách Học liệu](/img/png/GV_dshoclieu.png)
 
@@ -86,7 +86,7 @@ Giáo viên có thể xem các **`Học liệu`** có trong hệ thống và tì
   <em>Giao diện danh sách Học liệu.</em>
 </p>
 
-Giáo viên có thể tạo học liệu mới, bao gồm: tên học liệu và file học liệu (hỗ trợ file `pdf`, `word`, `powerpoint`).
+Giảng viên/Giáo viên có thể tạo học liệu mới, bao gồm: tên học liệu và file học liệu (hỗ trợ file `pdf`, `word`, `powerpoint`).
 
 ![Giao diện danh sách Tạo học liệu mới](/img/png/GV_taohoclieu.png)
 
@@ -94,16 +94,16 @@ Giáo viên có thể tạo học liệu mới, bao gồm: tên học liệu và
   <em>Giao diện Tạo học liệu mới.</em>
 </p>
 
-Giáo viên có thể xem chi tiết Học liệu và chọn vào tên file để tải xuống tài liệu.
+Giảng viên/Giáo viên có thể xem chi tiết Học liệu và chọn vào tên file để tải xuống tài liệu.
 
 ![Giao diện chi tiết Học liệu](/img/png/GV_chitiethoclieu.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện danh sách Học liệu.</em>
+  <em>Giao diện chi tiết Học liệu.</em>
 </p>
 
 ## 2. Quản lý Lớp học
-Giáo viên có thể xem  danh sách các **`Lớp học`** có trong hệ thống và tìm kiếm thông tin Lớp theo tên.
+Giảng viên/Giáo viên có thể xem danh sách các **`Lớp học`** có trong hệ thống và tìm kiếm thông tin Lớp theo tên.
 
 ![Giao diện danh sách Lớp](/img/png/GV_dslop.png)
 
@@ -112,7 +112,7 @@ Giáo viên có thể xem  danh sách các **`Lớp học`** có trong hệ th�
 </p>
 
 ### a. Phân tích
-Giáo viên có thể xem báo cáo chi tiết về tiến độ và kết quả học tập của từng lớp và tìm kiếm thông tin sinh viên trong lớp học theo tên.
+Giảng viên/Giáo viên có thể xem báo cáo chi tiết về tiến độ và kết quả học tập của từng lớp và tìm kiếm thông tin sinh viên trong lớp học theo tên.
 
 ### b. Thành viên
 Xem thông tin các sinh viên thuộc lớp học có trong hệ thống.
@@ -126,7 +126,7 @@ Xem thông tin các sinh viên thuộc lớp học có trong hệ thống.
 ## 3. Phân tích
 
 ### Thống kê toàn bộ hội thoại của sinh viên theo từng trợ lý có trong lớp học
-Tổng hợp dữ liệu từ tất cả các lớp học và trợ lý giảng viên phụ trách.
+Tổng hợp dữ liệu từ tất cả các lớp học và trợ lý giảng viên/giáo viên phụ trách.
 
 <!-- ![Giao diện thống kê Hội thoại của sinh viên](/img/png/thongkehoivao.png) -->
 
