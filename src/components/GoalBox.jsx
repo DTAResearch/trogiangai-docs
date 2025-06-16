@@ -4,15 +4,14 @@ export default function GoalBox({ children }) {
   return (
     <div
       style={{
-        background: 'rgba(165, 105, 189, 0.1)',
+        background: 'var(--goalbox-bg)',
+        color: 'var(--goalbox-text-color)',
         border: '2px solid #a569bd',
         borderRadius: '20px',
         padding: '1.75rem',
         margin: '2rem 0',
         boxShadow: '0 8px 20px rgba(165, 105, 189, 0.3)',
         backdropFilter: 'blur(10px)',
-        color: '#4a235a',
-        position: 'relative',
         fontSize: '1.05rem',
         lineHeight: '1.75',
         transition: 'transform 0.3s ease, box-shadow 0.3s ease',
