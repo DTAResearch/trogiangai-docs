@@ -6,22 +6,19 @@ sidebar_position: 3
 import GoalBox from '@site/src/components/GoalBox';
 
 <GoalBox>
-  Hệ thống Trợ giảng AI được thiết kế **để hỗ trợ Giảng viên nâng cao hiệu quả giảng dạy mà không tăng thêm gánh nặng thao tác**, với các chức năng thiết thực như:
-  - **Tổ chức dạy học linh hoạt, hiệu quả**:
-     - Dễ dàng upload hoặc nhúng tài liệu bài giảng (Docx, PDF, Markdown)
-     - Giao bài học trước để sinh viên tự học – thời gian trên lớp tập trung giải đáp, thảo luận, và luyện tập nâng cao
-     - Dashboard tổng quan giúp nắm bắt tình hình lớp học trước buổi dạy
-
-  - **Tạo hoạt động giảng dạy tương tác ngay tại lớp**:
-     - Tạo nhanh bài kiểm tra hoặc hoạt động học tập thông qua Trợ giảng AI
-     - Hỗ trợ tạo câu hỏi đa dạng, phù hợp trình độ và mục tiêu bài học
-  
-  - **Tái sử dụng và điều chỉnh học liệu linh hoạt**:
-     - Lưu trữ và nhân bản bài giảng, học liệu, trợ giảng AI từ các học kỳ trước
-     - Dễ dàng chỉnh sửa và áp dụng lại cho lớp học mới mà không cần soạn từ đầu
-  
-  - **Hợp tác và chia sẻ giữa giảng viên**:
-     - Có không gian chia sẻ học liệu, bài giảng, và kinh nghiệm giảng dạy giữa các giảng viên cùng bộ môn hoặc liên ngành
+Hệ thống Trợ giảng AI được thiết kế để **hỗ trợ Giảng viên nâng cao hiệu quả giảng dạy mà không tăng thêm gánh nặng thao tác**, với các chức năng thiết thực như:
+  - **Tổ chức dạy học linh hoạt, hiệu quả:**
+    - Dễ dàng upload hoặc nhúng tài liệu bài giảng (Docx, PDF, Markdown)
+    - Giao bài học trước để sinh viên tự học – thời gian trên lớp tập trung giải đáp, thảo luận, và luyện tập nâng cao
+    - Dashboard tổng quan giúp nắm bắt tình hình lớp học trước buổi dạy
+  - **Tạo hoạt động giảng dạy tương tác ngay tại lớp:**
+    - Tạo nhanh bài kiểm tra hoặc hoạt động học tập thông qua Trợ giảng AI
+    - Hỗ trợ tạo câu hỏi đa dạng, phù hợp trình độ và mục tiêu bài học
+  - **Tái sử dụng và điều chỉnh học liệu linh hoạt:**
+    - Lưu trữ và nhân bản bài giảng, học liệu, trợ giảng AI từ các học kỳ trước
+    - Dễ dàng chỉnh sửa và áp dụng lại cho lớp học mới mà không cần soạn từ đầu
+  - **Hợp tác và chia sẻ giữa giảng viên:**
+    - Có không gian chia sẻ học liệu, bài giảng, và kinh nghiệm giảng dạy giữa các giảng viên cùng bộ môn hoặc liên ngành
 </GoalBox>
 
 :::info

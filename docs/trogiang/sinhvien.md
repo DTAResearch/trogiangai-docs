@@ -5,13 +5,15 @@ sidebar_position: 4
 import GoalBox from '@site/src/components/GoalBox';
 
 # Chức năng của Sinh viên
+
 <GoalBox>
-  Hệ thống Trợ giảng AI được thiết kế nhằm **đồng hành và hỗ trợ sinh viên trong suốt quá trình học tập**, trước – trong – sau mỗi buổi học:
-    - Tiếp cận nhanh chóng bài giảng theo nhiều cách (tóm lược, chi tiết, từ khóa tiếng Anh) giúp sinh viên **nắm bắt nội dung linh hoạt và phù hợp với nhu cầu cá nhân**
-    - **Làm bài kiểm tra thông minh** với hệ thống gồm trắc nghiệm, điền từ, tự luận – kèm theo **phân tích tự động điểm mạnh, điểm yếu** và gợi ý nội dung cần cải thiện
-    - **Tương tác chủ động với Trợ giảng AI** qua chức năng hỏi – đáp về kiến thức bất kỳ lúc nào
-    - Giúp sinh viên **tự quản lý tiến độ học tập, nhận diện khoảng trống kiến thức**, từ đó nâng cao hiệu quả học tập mỗi ngày
+Hệ thống Trợ giảng AI được thiết kế nhằm **đồng hành và hỗ trợ sinh viên trong suốt quá trình học tập**, trước – trong – sau mỗi buổi học:
+  - Tiếp cận nhanh chóng bài giảng theo nhiều cách (tóm lược, chi tiết, keyword) giúp sinh viên **nắm bắt nội dung linh hoạt và phù hợp với nhu cầu cá nhân**
+  - **Làm bài kiểm tra thông minh** với hệ thống gồm trắc nghiệm, điền từ, tự luận – kèm theo **phân tích tự động điểm mạnh**, điểm yếu và gợi ý nội dung cần cải thiện
+  - **Tương tác chủ động với Trợ giảng AI** qua chức năng hỏi – đáp về kiến thức bất kỳ lúc nào
+  - Giúp sinh viên **rèn luyện thói quen tự học, nhận diện khoảng trống kiến thức**, từ đó nâng cao hiệu quả học tập mỗi ngày
 </GoalBox>
+
 :::info
 
 Tài khoản sinh viên được thiết kế để hỗ trợ người học trong việc theo dõi tiến độ học tập và tham gia các lớp học. Các tính năng bao gồm:
