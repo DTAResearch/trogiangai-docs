@@ -42,7 +42,7 @@ Tìm kiếm thông tin chương trình đào tạo theo tên, bộ lọc theo H�
   <em>Giao diện danh sách Học phần.</em>
 </p>
 
-### a. Trợ giảng
+### 1.1. Trợ giảng
 
 Giảng viên/Giáo viên có thể xem danh sách các **`Trợ giảng`** có trong hệ thống và tìm kiếm thông tin **`Trợ giảng`** theo tên.
 
@@ -52,7 +52,9 @@ Giảng viên/Giáo viên có thể xem danh sách các **`Trợ giảng`** có 
   <em>Giao diện quản trị danh sách Trợ giảng.</em>
 </p>
 
-Tạo mới trợ giảng bao gồm các thông tin: cơ bản, nâng cao, bài giảng
+#### 1.1.1. Tạo mới, chỉnh sửa trợ giảng
+
+Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
   - Phần **Cơ bản** bao gồm các thông tin:
     - Tên trợ giảng *(bắt buộc)*: Tên có thể phản ánh mục tiêu sử dụng hoặc học phần liên quan.
     - Mô hình gốc *(bắt buộc)*: Mô hình AI sẽ được dùng làm nền tảng. Ví dụ: Grok, có thể phù hợp với mục đích dạy học và xử lý nhanh.
@@ -60,11 +62,12 @@ Tạo mới trợ giảng bao gồm các thông tin: cơ bản, nâng cao, bài 
       - **Chỉ những sinh viên thuộc CTĐT** (mặc định): Chỉ các sinh viên thuộc chương trình đào tạo liên quan mới truy cập được.
       - **Công khai với mọi người**: Mọi người đều có thể truy cập và sử dụng trợ giảng này.
     - Mô tả *(tuỳ chọn)*: Thêm thông tin để người dùng khác hiểu rõ về mục đích, nội dung hoặc phạm vi của trợ giảng.
+
   - Phần **Nâng cao** bao gồm các thông tin:
     - Học liệu có sẵn *(tuỳ chọn)*: Chọn Học liệu đã được tạo trước đó để cung cấp dữ liệu cho mô hình trợ giảng
     - Ngữ cảnh hệ thống *(tuỳ chọn)*: Người dùng có thể cung cấp ngữ cảnh cụ thể mà trợ giảng cần hiểu – ví dụ: môn học, cấp độ sinh viên, các quy định học thuật.
 
-    *prompt mẫu:*
+    ***Prompt mẫu:***
 
     ```
     Bạn là một trợ giảng AI cho giảng viên/giáo viên môn "Cấu trúc dữ liệu và giải thuật" tại một trường đại học.
@@ -87,7 +90,7 @@ Tạo mới trợ giảng bao gồm các thông tin: cơ bản, nâng cao, bài 
   <em>Giao diện Tạo mới trợ giảng.</em>
 </p>
 
-  - Phần **Bài giảng**: Hỗ trợ soạn nội dung bằng `Markdown` — giúp định dạng văn bản, chèn code, liên kết, bảng biểu,... *(Lưu ý chỉ có thể thêm bài giảng sau khi tạo Trợ giảng).*
+- Phần **Bài giảng**: Hỗ trợ soạn nội dung bằng `Markdown` — giúp định dạng văn bản, chèn code, liên kết, bảng biểu,... *(Lưu ý chỉ có thể thêm bài giảng sau khi tạo Trợ giảng).*
 
 ![Giao diện thêm nội dung Bài giảng](/img/gif/GV_taobaigiang.gif)
 
@@ -95,7 +98,31 @@ Tạo mới trợ giảng bao gồm các thông tin: cơ bản, nâng cao, bài 
   <em>Giao diện Thêm nội dung Bài giảng.</em>
 </p>
 
-### b. Học liệu
+#### 1.1.2. Chức năng kiểm tra
+- Tạo, chỉnh sửa, xóa Thông tin cấu hình Bài kiểm tra: Tiêu đề, thời gian làm bài (phút), mô tả, bố cục câu hỏi (trắc nghiệm, điền từ, tự luận), mô hình AI, hạn nộp bài kiểm tra, Prompt tùy chỉnh nâng cao.
+- Tạo bộ đề tự động theo cấu hình Bài kiểm tra.
+- Chỉnh sửa nội dung câu hỏi bộ đề kiểm tra:
+    - Trắc nghiệm: Nội dung câu hỏi, điểm số, nội dung đáp án, đáp án đúng.
+    - Điền từ: Nội dung câu hỏi, điểm số, đáp án đúng.
+    - Trắc nghiệm: Nội dung câu hỏi, điểm số, đáp án mẫu, tiêu chí chấm điểm.
+- Xóa bộ đề kiểm tra
+
+ ![Giao diện cấu hình bài kiểm tra](/img/gif/GV_Cauhinhbaikiemtra.gif)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện Cấu hình đề kiểm tra.</em>
+</p>
+
+- Làm bài kiểm tra (đánh giá hoạt động).
+- Xem lịch sử làm bài của Sinh viên.
+
+ ![Giao diện cấu hình bài kiểm tra](/img/gif/GV_lichsudiem.gif)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện Lịch sử làm bài.</em>
+</p>
+
+### 1.2. Học liệu
 Giảng viên/Giáo viên có thể xem các **`Học liệu`** có trong hệ thống và tìm kiếm thông tin **`Học liệu`** theo tên.
 
 ![Giao diện danh sách Học liệu](/img/png/GV_dshoclieu.png)

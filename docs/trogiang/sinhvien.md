@@ -59,26 +59,26 @@ Xem danh sách: Xem các Kiến thức có trong hệ thống.
   <em>Giao diện quản trị danh sách Kiến thức.</em>
 </p>
 
-### b. Trợ lý
-**Xem danh sách:** Xem các `Trợ lý` có trong hệ thống.
+### b. Trợ giảng
+**Xem danh sách:** Xem các `Trợ giảng` có trong hệ thống.
 
-![Danh sách trợ lý](/img/png/dstroly.png)
+![Danh sách trợ giảng](/img/png/dstroly.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện quản trị danh sách trợ lý.</em>
+  <em>Giao diện quản trị danh sách trợ giảng.</em>
 </p>
 
-Từ danh sách trợ lý, học sinh có thể xem lịch sử các đoạn chat đã tạo trước đó, truy cập đến đoạn chat cũ, tạo mới đoạn chat với trợ lý đã chọn.
+Từ danh sách trợ giảng, học sinh có thể xem lịch sử các đoạn chat đã tạo trước đó, truy cập đến đoạn chat cũ, tạo mới đoạn chat với trợ lý đã chọn.
 
 ![Lịch sử chat](/img/png/lichsuchat.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện quản trị danh sách trợ lý.</em>
+  <em>Giao diện quản trị danh sách trợ giảng.</em>
 </p>
 
 #### Xem nội dung bài giảng
 
-Học sinh có thể truy cập vào xem bài giảng hoặc làm bài kiểm tra bằng cách chọn vào mô hình trợ lý.
+Học sinh có thể truy cập vào xem bài giảng hoặc làm bài kiểm tra bằng cách chọn vào mô hình trợ giảng.
 
 ![Bài giảng](/img/gif/baiGiang.gif)
 
