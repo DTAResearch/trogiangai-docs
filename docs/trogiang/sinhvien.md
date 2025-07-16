@@ -18,7 +18,7 @@ Hệ thống Trợ giảng AI được thiết kế nhằm **đồng hành và h
 
 Tài khoản sinh viên được thiết kế để hỗ trợ người học trong việc theo dõi tiến độ học tập và tham gia các lớp học. Các tính năng bao gồm:
 - **Thống kê cá nhân.**
-- **Quản lý Học phần:** `Kiến thức`, `Trợ lý (Bài giảng, Kiểm tra)`
+- **Quản lý Học phần:** `Kiến thức`, `Trợ giảng (Bài giảng, Kiểm tra)`
 - **Quản lý Phản hồi.** *(coming soon)*
 
 
@@ -50,25 +50,25 @@ Xem báo cáo kết quả học tập: Sinh viên có thể theo dõi tiến đ�
   <em>Giao diện tìm kiếm học phần theo tên.</em>
 </p>
 
-### a. Kiến thức
-Xem danh sách: Xem các Kiến thức có trong hệ thống.
+### a. Học liệu
+Xem danh sách: Xem các Học liệu có trong hệ thống.
 
-![Lịch sử chat](/img/png/kienthuc.png)
+![Học liệu](/img/png/hoclieu.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện quản trị danh sách Kiến thức.</em>
+  <em>Giao diện quản trị danh sách Học liệu.</em>
 </p>
 
 ### b. Trợ giảng
 **Xem danh sách:** Xem các `Trợ giảng` có trong hệ thống.
 
-![Danh sách trợ giảng](/img/png/dstroly.png)
+![Danh sách trợ giảng](/img/png/dstrogiang.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách trợ giảng.</em>
 </p>
 
-Từ danh sách trợ giảng, học sinh có thể xem lịch sử các đoạn chat đã tạo trước đó, truy cập đến đoạn chat cũ, tạo mới đoạn chat với trợ lý đã chọn.
+Từ danh sách trợ giảng, học sinh có thể xem lịch sử các đoạn chat đã tạo trước đó, truy cập đến đoạn chat cũ, tạo mới đoạn chat với Trợ giảng đã chọn.
 
 ![Lịch sử chat](/img/png/lichsuchat.png)
 
