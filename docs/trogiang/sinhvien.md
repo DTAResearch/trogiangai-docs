@@ -106,5 +106,30 @@ Sau khi Sinh viên hoàn thành hết 20 câu kiểm tra tợ lý AI sẽ chấm
   <em>Giao diện kiểm tra với AI.</em>
 </p>
 
+#### Bài giảng AI
 
+- **Truy cập và học tập linh hoạt**: Hệ thống cho phép sinh viên đọc nội dung bài giảng, bao gồm văn bản, hình ảnh đính kèm, được tạo tự động bởi AI dựa trên dữ liệu học phần.
+      ![Giao diện Nội dung Bài giảng AI](/img/png/GV_NoidungBaigiangAI.png)
+      <p style={{ textAlign: 'center' }}>
+        <em>Giao diện Nội dung Bài giảng AI.</em>
+      </p>
+
+- **Tương tác với nội dung**: Sinh viên chỉ có thể chuyển slide sau khi trả lời đúng câu hỏi ôn tập (hiểu bài).
+      ![Giao diện Câu hỏi ôn tập Bài giảng AI](/img/png/GV_TraloiBaigiangAI.png)
+      <p style={{ textAlign: 'center' }}>
+        <em>Giao diện Câu hỏi ôn tập Bài giảng AI.</em>
+      </p>
+
+- **Hỏi đáp chủ động**: Sinh viên có thể đặt câu hỏi trực tiếp với Trợ giảng AI để làm rõ kiến thức, với giao diện hỗ trợ **lịch sử chat** để xem lại các đoạn hội thoại cũ.
+      ![Giao diện Chat Bài giảng AI](/img/png/GV_ChatBaigiangAI.png)
+      <p style={{ textAlign: 'center' }}>
+        <em>Giao diện Chat Bài giảng AI.</em>
+      </p>
+
+- **Hướng dẫn sử dụng**:
+  1. Truy cập danh sách **Trợ giảng** từ giao diện Quản lý Học phần.
+  2. Chọn bài giảng mong muốn từ danh sách hoặc tìm kiếm bằng từ khóa.
+  3. Nhấp vào **Bài giảng AI** để xem nội dung hoặc bắt đầu tương tác với AI.
+  4. Sử dụng ô nhập liệu để đặt câu hỏi hoặc yêu cầu tóm tắt nội dung.
+  5. Trả lời câu hỏi ôn tập để chuyển sang slide kế tiếp.
 

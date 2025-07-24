@@ -98,7 +98,7 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
   <em>Giao diện Thêm nội dung Bài giảng.</em>
 </p>
 
-#### 1.1.2. Chức năng kiểm tra
+#### 1.1.2. Chức năng Kiểm tra
 - Tạo, chỉnh sửa, xóa Thông tin cấu hình Bài kiểm tra: Tiêu đề, thời gian làm bài (phút), mô tả, bố cục câu hỏi (trắc nghiệm, điền từ, tự luận), mô hình AI, hạn nộp bài kiểm tra, Prompt tùy chỉnh nâng cao.
 - Tạo bộ đề tự động theo cấu hình Bài kiểm tra.
 - Chỉnh sửa nội dung câu hỏi bộ đề kiểm tra:
@@ -121,6 +121,30 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Lịch sử làm bài.</em>
 </p>
+
+#### 1.1.3. Chức năng Bài giảng AI
+
+- **Tạo và quản lý Bài giảng AI**: Hệ thống hỗ trợ người dùng tạo mới, chỉnh sửa và xóa các bài giảng được hỗ trợ bởi trí tuệ nhân tạo (AI). Các thông tin cấu hình bao gồm tiêu đề, nội dung bài giảng, .
+
+- **Tùy chỉnh nội dung**: Người dùng có thể để AI tự động tạo bài giảng phù hợp, bao gồm văn bản, câu hỏi tương tác và ví dụ minh họa thông qua hình ảnh hoặc nhập nội dung chi tiết.
+
+- **Hướng dẫn sử dụng**:
+
+  **1.** Truy cập giao diện Bài giảng AI và nhấp vào nút **`Thêm bài giảng mới`** hoặc **`Tải ảnh lên`**.
+      ![Giao diện Tạo mới Bài giảng AI](/img/png/GV_TaoBaigiangAI.png)
+      <p style={{ textAlign: 'center' }}>
+        <em>Giao diện Tạo mới Bài giảng AI.</em>
+      </p>
+  **2.** Tải lên **Hình ảnh** (định dạng `JPEG, JPG, PNG` tối đa 10 MB).
+
+  **3.** Chỉnh sửa  **Tiêu đề** cho bài giảng trong trường tương ứng.
+
+  **4.** Chỉnh sửa **Nội dung** bằng cách nhập trực tiếp hoặc sử dụng công cụ Markdown để định dạng.
+      ![Giao diện chỉnh sửa Bài giảng AI](/img/png/GV_ChinhsuaTrogiang.png)
+      <p style={{ textAlign: 'center' }}>
+        <em>Giao diện Chỉnh sửa Bài giảng AI.</em>
+      </p>
+  **5.** Nhấp **Tạo mới** để lưu bài giảng hoặc **Xem trước** để kiểm tra trước khi hoàn tất.
 
 ### 1.2. Học liệu
 Giảng viên/Giáo viên có thể xem các **`Học liệu`** có trong hệ thống và tìm kiếm thông tin **`Học liệu`** theo tên.
