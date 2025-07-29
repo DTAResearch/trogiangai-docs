@@ -78,13 +78,13 @@ export default function HomepageFeatures(): ReactNode {
       {/* Video Section */}
       <section className={styles.features} style={{ marginTop: '2rem' }}>
         <div className="container text--center">
-          <Heading as="h2">Video giới thiệu Trợ giảng AI</Heading>
+          <Heading as="h2">Video giới thiệu chức năng Bài Giảng AI</Heading>
           <div className="margin-top--md">
             <iframe
               width="100%"
               height="500"
-              src="https://www.youtube.com/embed/4-dCd6G1Cso"
-              title="Video giới thiệu Trợ giảng AI"
+              src="https://www.youtube.com/embed/F1CGLSH_WXg"
+              title="Video giới thiệu chức năng Bài Giảng AI"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

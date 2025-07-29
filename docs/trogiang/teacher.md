@@ -90,12 +90,12 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
   <em>Giao diện Tạo mới trợ giảng.</em>
 </p>
 
-- Phần **Bài giảng**: Hỗ trợ soạn nội dung bằng `Markdown` — giúp định dạng văn bản, chèn code, liên kết, bảng biểu,... *(Lưu ý chỉ có thể thêm bài giảng sau khi tạo Trợ giảng).*
+- Phần **Bài đọc**: Hỗ trợ soạn nội dung bằng `Markdown` — giúp định dạng văn bản, chèn code, liên kết, bảng biểu,... *(Lưu ý chỉ có thể thêm Bài đọc sau khi tạo Trợ giảng).*
 
-![Giao diện thêm nội dung Bài giảng](/img/gif/GV_taobaigiang.gif)
+![Giao diện thêm nội dung Bài đọc](/img/gif/GV_taobaigiang.gif)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện Thêm nội dung Bài giảng.</em>
+  <em>Giao diện Thêm nội dung Bài đọc.</em>
 </p>
 
 #### 1.1.2. Chức năng Kiểm tra
