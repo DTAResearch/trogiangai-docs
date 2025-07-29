@@ -5,324 +5,266 @@ sidebar_position: 2
 
 :::info
 
-Tài khoản Admin là tài khoản có quyền quản lý toàn bộ hệ thống Trợ giảng AI. Admin có thể thực hiện các thao tác quản lý từ phân tích dữ liệu đến quản lý các thông tin về khoa, chuyên ngành, chương trình đào tạo, học phần, trợ lý, kiến thức, lớp học và người dùng. Dưới đây là các chức năng chính của tài khoản Admin:
+Tài khoản Admin là tài khoản có quyền quản lý toàn bộ hệ thống Trợ giảng AI. Admin có thể thực hiện các thao tác quản lý từ phân tích dữ liệu đến quản lý các thông tin về khoa, chuyên ngành, chương trình đào tạo, học phần, Trợ giảng, Học liệu, lớp học và người dùng. Dưới đây là các chức năng chính của tài khoản Admin:
 
 :::
 
-## 1. Phân tích
+## Phân tích
 
-### 1.1. Thống kê toàn hệ thống
-Admin có thể xem báo cáo tổng hợp dữ liệu từ tất cả các lớp học và trợ lý trong hệ thống. Giao diện này cung cấp cái nhìn tổng quát về mức độ sử dụng và tương tác của sinh viên với toàn bộ hệ thống Chat AI. Các biểu đồ và số liệu chính (ví dụ: tổng số phiên chat, số lượng người dùng hoạt động, lượng tin nhắn...) giúp quản trị viên đánh giá hiệu quả hoạt động chung của nền tảng.
+### 1.1. Thống kê theo Khoa
+Admin có thể xem báo cáo tổng hợp dữ liệu theo từng khoa, bao gồm tổng số sinh viên, số lượng sinh viên hoạt động, và mức độ tương tác chung. Các biểu đồ thể hiện sự phân bổ sinh viên theo khoa, giúp quản trị viên đánh giá hiệu quả sử dụng hệ thống theo từng đơn vị.
 
-<!-- ![Thống kê toàn hệ thống](/img/png/thongketoanht.png) -->
+![Thống kê theo Khoa](/img/png/tkkhoa.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện thống kê toàn hệ thống.</em>
+  <em>Giao diện Thống kê theo Khoa.</em>
 </p>
 
-### 1.2. Thống kê theo từng lớp học
-Admin có thể xem báo cáo chi tiết về tiến độ và kết quả học tập của từng lớp. Giao diện này cung cấp các số liệu thống kê tập trung vào một lớp học cụ thể. Hiển thị mức độ tương tác chung của lớp, danh sách và hoạt động của từng sinh viên trong lớp, giúp quản trị viên và giáo viên phụ trách theo dõi và đánh giá tiến độ học tập của lớp.
+### 1.2. Thống kê theo Ngành
+Giao diện này cung cấp thông tin chi tiết về số lượng sinh viên và hoạt động của họ theo từng ngành học. Các số liệu và biểu đồ cho thấy mức độ tương tác với các trợ giảng chuyên biệt, hỗ trợ phân tích xu hướng học tập theo ngành.
 
-<!-- ![Thống kê theo từng lớp học](/img/png/thongketheotunglophoc.png) -->
+![Thống kê theo Ngành](/img/png/tknganh.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện thống kê theo từng lớp học.</em>
+  <em>Giao diện Thống kê theo Ngành.</em>
 </p>
 
-### 1.3. Thống kê lượng tương tác của sinh viên với toàn hệ thống
-Giao diện này hiển thị chi tiết mức độ tương tác của từng sinh viên với các mô hình AI (các trợ lý chuyên biệt) có trong hệ thống giúp quản trị viên/giáo viên theo dõi hành vi học tập cá nhân và phân tích sự phân bổ tương tác với các trợ lý khác nhau.
+### 1.3. Thống kê theo CTĐT
+Admin có thể theo dõi báo cáo chi tiết về tiến độ học tập và tương tác của sinh viên theo từng chương trình đào tạo (CTĐT). Giao diện hiển thị số lượng sinh viên tham gia CTĐT, mức độ sử dụng trợ giảng, và các môn học liên quan, hỗ trợ đánh giá hiệu quả đào tạo theo chương trình.
 
-<!-- ![Thống kê lượng tương tác của sinh viên với toàn hệ thống](/img/png/thongkyluongtuyendung.png) -->
+![Thống kê theo CTĐT](/img/png/tkctdt.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện thống kê lượng tương tác của sinh viên với toàn hệ thống.</em>
+  <em>Giao diện Thống kê theo CTĐT.</em>
 </p>
 
-### 1.4. Thông tin các cuộc hội thoại của sinh viên
-Liệt kê tất cả các cuộc hội thoại đã diễn ra giữa sinh viên và các trợ lý AI. Mỗi mục trong danh sách bao gồm thông tin tóm tắt như sinh viên tham gia, thời gian bắt đầu, môn học/trợ lý, và số lượng tin nhắn, cho phép dễ dàng tìm kiếm và truy cập chi tiết.
+### 1.4. Thống kê theo Lớp
+Admin có thể theo dõi báo cáo chi tiết về tiến độ học tập và tương tác của từng lớp. Giao diện hiển thị số lượng sinh viên trong lớp, danh sách sinh viên, và mức độ tham gia, giúp đánh giá hiệu quả học tập theo từng lớp cụ thể.
 
-<!-- ![Thông tin các cuộc hội thoại của sinh viên](/img/png/thongtincuocrhoi.png) -->
+![Thống kê theo Lớp](/img/png/tklop.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện thông tin các cuộc hội thoại của sinh viên.</em>
+  <em>Giao diện Thống kê theo Lớp.</em>
 </p>
 
-### 1.5. Chi tiết hội thoại của sinh viên
-Giao diện hiển thị toàn bộ nội dung của một cuộc hội thoại cụ thể. Trình bày các tin nhắn theo trình tự thời gian giữa sinh viên và trợ lý AI, giúp xem lại chi tiết quá trình tương tác, câu hỏi của sinh viên và phản hồi của AI.
+### 1.5. Thống kê theo Trợ giảng
+Giao diện này thể hiện mức độ sử dụng và tương tác của sinh viên với từng trợ giảng AI, bao gồm số lượng tin nhắn và các môn học liên quan. Điều này hỗ trợ quản trị viên trong việc đánh giá hiệu quả của từng trợ giảng.
 
-<!-- ![Chi tiết hội thoại của sinh viên](/img/png/chitietcuochoi.png) -->
+![Thống kê theo Trợ giảng](/img/png/tktrogiang.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện chi tiết hội thoại của sinh viên.</em>
+  <em>Giao diện Thống kê theo Trợ giảng.</em>
+</p>
+
+### 1.6. Thống kê theo Hội thoại
+Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ giảng AI, bao gồm thông tin như thời gian, sinh viên tham gia, và số lượng tin nhắn. Giao diện này giúp xem lại chi tiết quá trình học tập và tương tác.
+
+![Thống kê theo Hội thoại](/img/png/tkhoithoai.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện Thống kê theo Hội thoại.</em>
 </p>
 
 ## 2. Quản lý Khoa
 
-### 2.1. Xem danh sách
-Admin có thể xem các khoa có trong hệ thống.
+- Xem danh sách: Admin có thể xem các khoa có trong hệ thống.
 
-<!-- ![Danh sách Khoa](/img/png/dskhoa.png) -->
+![Danh sách Khoa](/img/png/dskhoa.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Khoa.</em>
 </p>
 
-### 2.2. Tạo mới khoa
-Quản trị viên có thể tạo các khoa mới trong hệ thống.
-
-<!-- ![Tạo mới Khoa](/img/png/taomoi_khoa.png) -->
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện tạo mới Khoa.</em>
-</p>
-
-### 2.3. Chỉnh sửa thông tin khoa
-Thay đổi thông tin bao gồm tên khoa, mô tả, trưởng khoa.
+- Tạo mới khoa: Quản trị viên có thể tạo các khoa mới trong hệ thống.
+- Chỉnh sửa thông tin khoa: Thay đổi thông tin bao gồm tên khoa, mô tả, trưởng khoa.
+- Phân công trưởng khoa: Gán trưởng khoa phụ trách cho từng khoa.
+- Tìm kiếm thông tin khoa: Tìm kiếm thông tin khoa thông qua thanh tìm kiếm.
 
 <!-- ![Chỉnh sửa thông tin Khoa](/img/png/chinhsuathongtinkhoa.png) -->
 
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện chỉnh sửa thông tin Khoa.</em>
-</p>
-
-### 2.4. Phân công trưởng khoa
-Gán trưởng khoa phụ trách cho từng khoa.
-
-### 2.5. Tìm kiếm thông tin khoa
-Tìm kiếm thông tin khoa thông qua thanh tìm kiếm.
+<!-- <p style={{ textAlign: 'center' }}>
+  <em>Giao diện tạo mới, chỉnh sửa thông tin Khoa.</em>
+</p> -->
 
 ## 3. Quản lý Chuyên ngành
 
-### 3.1. Xem danh sách
-Admin có thể xem các chuyên ngành có trong hệ thống.
+- Xem danh sách: Admin có thể xem các chuyên ngành có trong hệ thống.
 
-<!-- ![Danh sách Chuyên ngành](/img/png/dschuyenn.png) -->
+![Danh sách Chuyên ngành](/img/png/dschuyennganh.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Chuyên ngành.</em>
 </p>
 
-### 3.2. Tạo mới chuyên ngành
-Quản trị viên có thể tạo các chuyên ngành mới trong hệ thống.
-
-<!-- ![Tạo mới Chuyên ngành](/img/png/taomoi_chuyenn.png) -->
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện tạo mới Chuyên ngành.</em>
-</p>
-
-### 3.3. Chỉnh sửa thông tin chuyên ngành
-Thay đổi thông tin bao gồm tên chuyên ngành, thuộc khoa, mô tả.
+- Tạo mới chuyên ngành: Quản trị viên có thể tạo các chuyên ngành mới trong hệ thống.
+- Chỉnh sửa thông tin chuyên ngành: Thay đổi thông tin bao gồm tên chuyên ngành, thuộc khoa, mô tả.
+- Tìm kiếm thông tin chuyên ngành: Tìm kiếm thông tin khoa thông qua thanh tìm kiếm hoặc bộ lọc theo khoa.
 
 <!-- ![Chỉnh sửa thông tin Chuyên ngành](/img/png/chinhsuathongtinchuyenn.png) -->
 
-<p style={{ textAlign: 'center' }}>
+<!-- <p style={{ textAlign: 'center' }}>
   <em>Giao diện chỉnh sửa thông tin Chuyên ngành.</em>
-</p>
-
-### 3.4. Tìm kiếm thông tin chuyên ngành
-Tìm kiếm thông tin khoa thông qua thanh tìm kiếm hoặc bộ lọc theo khoa.
+</p> -->
 
 ## 4. Quản lý CTĐT
 
-### 4.1. Xem danh sách
-Admin có thể xem các CTĐT có trong hệ thống.
+- Xem danh sách: Admin có thể xem các CTĐT có trong hệ thống.
 
-<!-- ![Danh sách CTĐT](/img/png/dsctdt.png) -->
+![Danh sách CTĐT](/img/png/dsctdt.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách CTĐT.</em>
 </p>
 
-### 4.2. Tạo mới
-Quản trị viên có thể tạo các CTĐT mới trong hệ thống.
+- Tạo mới: Quản trị viên có thể tạo các CTĐT mới trong hệ thống.
+- Chỉnh sửa thông tin: Thay đổi thông tin bao gồm: tên chương trình đào tạo, giám đốc chương trình đào tạo, chuyên ngành, mô tả.
+- Tìm kiếm thông tin: Tìm kiếm thông tin chương trình đào tạo theo tên.
 
 <!-- ![Tạo mới CTĐT](/img/png/taomoi_ctdt.png) -->
 
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện tạo mới CTĐT.</em>
-</p>
-
-### 4.3. Chỉnh sửa thông tin
-Thay đổi thông tin bao gồm: tên chương trình đào tạo, giám đốc chương trình đào tạo, chuyên ngành, mô tả.
-
-<!-- ![Chỉnh sửa thông tin CTĐT](/img/png/chinhsuathongtinctdt.png) -->
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện chỉnh sửa thông tin CTĐT.</em>
-</p>
-
-### 4.4. Tìm kiếm thông tin
-Tìm kiếm thông tin chương trình đào tạo theo tên.
+<!-- <p style={{ textAlign: 'center' }}>
+  <em>Giao diện tạo mới, chỉnh sửa thông tin CTĐT.</em>
+</p> -->
 
 ## 5. Quản lý Học phần
 
-### 5.1. Xem danh sách
-Admin có thể xem các Học phần có trong hệ thống.
+- Xem danh sách: Admin có thể xem các Học phần có trong hệ thống.
 
-<!-- ![Danh sách Học phần](/img/png/dshocphan.png) -->
+![Danh sách Học phần](/img/png/dshocphan.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Học phần.</em>
 </p>
 
-### 5.2. Tạo mới
-Quản trị viên có thể tạo các Học phần mới trong hệ thống.
+- Tạo mới: Quản trị viên có thể tạo các Học phần mới trong hệ thống.
+- Chỉnh sửa thông tin: Thay đổi thông tin bao gồm: Mã học phần, tên, chương trình đào tạo, học kỳ, mô tả.
+- Tìm kiếm thông tin: Tìm kiếm thông tin chương trình đào tạo theo tên, bộ lọc theo Học kỳ hoặc theo Chương trình đào tạo.
 
 <!-- ![Tạo mới Học phần](/img/png/taomoi_hocphan.png) -->
 
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện tạo mới Học phần.</em>
-</p>
+<!-- <p style={{ textAlign: 'center' }}>
+  <em>Giao diện tạo mới, chỉnh sửa thông tin Học phần.</em>
+</p> -->
 
-### 5.3. Chỉnh sửa thông tin
-Thay đổi thông tin bao gồm: Mã học phần, tên, chương trình đào tạo, học kỳ, mô tả.
+### 5.1. Trợ giảng
+- Xem danh sách: Admin có thể xem các Trợ giảng có trong hệ thống.
 
-<!-- ![Chỉnh sửa thông tin Học phần](/img/png/chinhsuathongtinhocphan.png) -->
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện chỉnh sửa thông tin Học phần.</em>
-</p>
-
-### 5.4. Tìm kiếm thông tin
-Tìm kiếm thông tin chương trình đào tạo theo tên, bộ lọc theo Học kỳ hoặc theo Chương trình đào tạo.
-
-## 6. Trợ lý
-
-### 6.1. Xem danh sách
-Admin có thể xem các Trợ lý có trong hệ thống.
-
-<!-- ![Danh sách Trợ lý](/img/png/dstroly.png) -->
+![Danh sách Trợ giảng](/img/png/dstrogiang.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện quản trị danh sách Trợ lý.</em>
+  <em>Giao diện quản trị danh sách Trợ giảng.</em>
 </p>
 
-### 6.2. Tạo mới
-Quản trị viên có thể tạo các Trợ lý mới trong hệ thống.
+- Tạo mới: Quản trị viên có thể tạo các Trợ giảng mới trong hệ thống.
+- Chỉnh sửa thông tin: Thay đổi thông tin cơ bản bao gồm: Tên trợ giảng, Chọn mô hình gốc, quyền truy cập, mô tả; Học liệu nâng cao: Chọn Học liệu sẵn có, ngữ cảnh hệ thống, gợi ý câu hỏi.
+- Tìm kiếm thông tin: Tìm kiếm thông tin Trợ giảng theo tên.
 
-<!-- ![Tạo mới Trợ lý](/img/png/taomoi_troly.png) -->
+<!-- ![Tạo mới Trợ giảng](/img/png/taomoi_troly.png) -->
+
+<!-- <p style={{ textAlign: 'center' }}>
+  <em>Giao diện tạo mới Trợ giảng.</em>
+</p> -->
+
+- Chức năng **Bài giảng AI**
+
+    - **Tạo và quản lý Bài giảng AI**: Hệ thống hỗ trợ người dùng tạo mới, chỉnh sửa và xóa các bài giảng được hỗ trợ bởi trí tuệ nhân tạo (AI). Các thông tin cấu hình bao gồm tiêu đề, nội dung bài giảng, .
+
+    - **Tùy chỉnh nội dung**: Người dùng có thể để AI tự động tạo bài giảng phù hợp, bao gồm văn bản, câu hỏi tương tác và ví dụ minh họa thông qua hình ảnh hoặc nhập nội dung chi tiết.
+          ![Giao diện Tạo mới Bài giảng AI](/img/png/GV_TaoBaigiangAI.png)
+          <p style={{ textAlign: 'center' }}>
+            <em>Giao diện Tạo mới Bài giảng AI.</em>
+          </p>
+
+- Chức năng **Bài đọc**:
+    - Hỗ trợ soạn nội dung bằng `Markdown` — giúp định dạng văn bản, chèn code, liên kết, bảng biểu,... *(Lưu ý chỉ có thể thêm Bài đọc sau khi tạo Trợ giảng).*
+
+    ![Giao diện thêm nội dung Bài đọc](/img/gif/GV_taobaigiang.gif)
+
+    <p style={{ textAlign: 'center' }}>
+      <em>Giao diện Thêm nội dung Bài đọc.</em>
+    </p>
+
+- Chức năng **Kiểm tra**
+    - Tạo, chỉnh sửa, xóa Thông tin cấu hình Bài kiểm tra: Tiêu đề, thời gian làm bài (phút), mô tả, bố cục câu hỏi (trắc nghiệm, điền từ, tự luận), mô hình AI, hạn nộp bài kiểm tra, Prompt tùy chỉnh nâng cao.
+    - Tạo bộ đề tự động theo cấu hình Bài kiểm tra.
+    - Chỉnh sửa nội dung câu hỏi bộ đề kiểm tra:
+        - Trắc nghiệm: Nội dung câu hỏi, điểm số, nội dung đáp án, đáp án đúng.
+        - Điền từ: Nội dung câu hỏi, điểm số, đáp án đúng.
+        - Trắc nghiệm: Nội dung câu hỏi, điểm số, đáp án mẫu, tiêu chí chấm điểm.
+    - Xóa bộ đề kiểm tra
+
+     ![Giao diện cấu hình bài kiểm tra](/img/gif/GV_Cauhinhbaikiemtra.gif)
+
+    <p style={{ textAlign: 'center' }}>
+      <em>Giao diện Cấu hình đề kiểm tra.</em>
+    </p>
+
+    - Làm bài kiểm tra (đánh giá hoạt động).
+    - Xem lịch sử làm bài của Sinh viên.
+
+     ![Giao diện cấu hình bài kiểm tra](/img/gif/GV_lichsudiem.gif)
+
+    <p style={{ textAlign: 'center' }}>
+      <em>Giao diện Lịch sử làm bài.</em>
+    </p>
+
+### 5.2. Học liệu
+- Xem danh sách: Admin có thể xem các Học liệu có trong hệ thống.
+
+![Danh sách Học liệu](/img/png/dshoclieu.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện tạo mới Trợ lý.</em>
+  <em>Giao diện quản trị danh sách Học liệu.</em>
 </p>
 
-### 6.3. Chỉnh sửa thông tin
-Thay đổi thông tin cơ bản bao gồm: Tên trợ lý, Chọn mô hình gốc, quyền truy cập, mô tả; kiến thức nâng cao: Chọn kiến thức sẵn có, ngữ cảnh hệ thống, gợi ý câu hỏi.
+- Tạo mới: Quản trị viên có thể tạo các Học liệu mới trong hệ thống.
+- Chỉnh sửa thông tin: Thay đổi thông tin cơ bản bao gồm: Tên Học liệu, mô tả Học liệu, file Học liệu.
+- Tìm kiếm thông tin: Tìm kiếm thông tin Học liệu theo tên.
 
-<!-- ![Chỉnh sửa thông tin Trợ lý](/img/png/chinhsuathongtintroly.png) -->
+## 6. Quản lý Lớp học
+- Xem danh sách: Admin có thể xem các Lớp học có trong hệ thống.
 
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện chỉnh sửa thông tin Trợ lý.</em>
-</p>
-
-### 6.4. Tìm kiếm thông tin
-Tìm kiếm thông tin Trợ lý theo tên.
-
-## 7. Kiến thức
-
-### 7.1. Xem danh sách
-Admin có thể xem các Kiến thức có trong hệ thống.
-
-<!-- ![Danh sách Kiến thức](/img/png/dskienthuc.png) -->
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện quản trị danh sách Kiến thức.</em>
-</p>
-
-### 7.2. Tạo mới
-Quản trị viên có thể tạo các Kiến thức mới trong hệ thống.
-
-<!-- ![Tạo mới Kiến thức](/img/png/taomoi_kienthuc.png) -->
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện tạo mới Kiến thức.</em>
-</p>
-
-### 7.3. Chỉnh sửa thông tin
-Thay đổi thông tin cơ bản bao gồm: Tên kiến thức, mô tả kiến thức, file kiến thức.
-
-<!-- ![Chỉnh sửa thông tin Kiến thức](/img/png/chinhsuathongtinkienthuc.png) -->
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện chỉnh sửa thông tin Kiến thức.</em>
-</p>
-
-### 7.4. Tìm kiếm thông tin
-Tìm kiếm thông tin Kiến thức theo tên.
-
-## 8. Quản lý Lớp học
-
-### 8.1. Xem danh sách
-Admin có thể xem các Lớp học có trong hệ thống.
-
-<!-- ![Danh sách Lớp](/img/png/dslop.png) -->
+![Danh sách Lớp](/img/png/dslop.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Lớp.</em>
 </p>
 
-### 8.2. Tạo mới
-Quản trị viên có thể tạo các Lớp học mới trong hệ thống.
+- Tạo mới: Quản trị viên có thể tạo các Lớp học mới trong hệ thống.
+- Chỉnh sửa thông tin: Thay đổi thông tin bao gồm: Tên lớp học, giáo viên, mô tả.
+- Tìm kiếm thông tin: Tìm kiếm thông tin Lớp theo tên.
 
 <!-- ![Tạo mới Lớp](/img/png/taomoi_lop.png) -->
 
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện tạo mới Lớp.</em>
-</p>
+<!-- <p style={{ textAlign: 'center' }}>
+  <em>Giao diện tạo mới, chỉnh sửa thông tin Lớp.</em>
+</p> -->
 
-### 8.3. Chỉnh sửa thông tin
-Thay đổi thông tin bao gồm: Tên lớp học, giáo viên, mô tả.
+- Phân tích: Admin có thể xem báo cáo chi tiết về tiến độ và kết quả học tập của từng lớp.
+- Thành viên: Xem thông tin các sinh viên thuộc lớp học có trong hệ thống. Quản trị viên có thể thêm sinh viên vào Lớp học. Tìm kiếm thông tin sinh viên trong lớp học theo tên.
 
-<!-- ![Chỉnh sửa thông tin Lớp](/img/png/chinhsuathongtinlop.png) -->
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện chỉnh sửa thông tin Lớp.</em>
-</p>
-
-### 8.4. Tìm kiếm thông tin
-Tìm kiếm thông tin Lớp theo tên.
-
-### 8.5. Phân tích
-Admin có thể xem báo cáo chi tiết về tiến độ và kết quả học tập của từng lớp.
-
-### 8.6. Thành viên
-Xem thông tin các sinh viên thuộc lớp học có trong hệ thống. Quản trị viên có thể thêm sinh viên vào Lớp học. Tìm kiếm thông tin sinh viên trong lớp học theo tên.
-
-<!-- ![Danh sách sinh viên trong lớp học](/img/png/dssinhvientronglop.png) -->
+![Danh sách sinh viên trong lớp học](/img/png/ds_thanhvienlop.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách sinh viên trong lớp học.</em>
 </p>
 
-<!-- ![Thêm sinh viên vào lớp học](/img/png/themsvvaolop.png) -->
+## 7. Quản lý Người dùng
 
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện thêm sinh viên vào lớp học.</em>
-</p>
+- Xem danh sách: Admin có thể xem tất cả Người dùng có trong hệ thống.
 
-## 9. Quản lý Người dùng
-
-### 9.1. Xem danh sách
-Admin có thể xem tất cả Người dùng có trong hệ thống.
-
-<!-- ![Danh sách Người dùng](/img/png/dsnhanvien.png) -->
+![Danh sách Người dùng](/img/png/dsnguoidung.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách người dùng trong hệ thống.</em>
 </p>
 
-### 9.2. Tạo mới
-Quản trị viên có thể tạo Người dùng mới trong hệ thống.
+- Tạo mới: Quản trị viên có thể tạo Người dùng mới trong hệ thống.
+- Chỉnh sửa thông tin: Thay đổi thông tin phân loại người dùng theo vai trò.
+- Tìm kiếm thông tin: Tìm kiếm thông tin người dùng theo tên, email, lọc theo vai trò.
 
-<!-- ![Tạo mới Người dùng](/img/png/taomoi_nhanvien.png) -->
+![Tạo mới Người dùng](/img/png/import_excel.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện thêm người dùng trong hệ thống.</em>
+  <em>Giao diện thêm người dùng bằng Excel trong hệ thống.</em>
 </p>
-
-### 9.3. Chỉnh sửa thông tin
-Thay đổi thông tin phân loại người dùng theo vai trò.
-
-### 9.4. Tìm kiếm thông tin
-Tìm kiếm thông tin người dùng theo tên, email, lọc theo vai trò.
