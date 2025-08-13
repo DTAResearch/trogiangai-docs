@@ -135,7 +135,7 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
  ![Giao diện Ví dụ minh họa](/img/png/demo_kiemtra.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện Cấu hình đề kiểm tra.</em>
+  <em>Giao diện Ví dụ minh họa.</em>
 </p>
 
 - Làm bài kiểm tra (đánh giá hoạt động).
