@@ -113,10 +113,35 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
   <em>Giao diện Cấu hình đề kiểm tra.</em>
 </p>
 
+- Prompt tùy chỉnh nâng cao: Cho phép giảng viên định nghĩa yêu cầu chi tiết để AI tạo bộ đề kiểm tra bám sát mục tiêu giảng dạy. Chức năng này giúp điều chỉnh sâu hơn về nội dung và mức độ khó của câu hỏi, bao gồm:
+
+  - Thiết lập đầu ra: Xác định rõ mức độ khó và tiêu chí chấm điểm.
+  - Tập trung vào chủ đề cụ thể: Giới hạn phạm vi sinh câu hỏi xoay quanh một nội dung, bài học, kỹ năng hoặc năng lực nhất định.
+  - Điều chỉnh ngôn ngữ và phong cách: Chỉ định ngôn ngữ tạo câu hỏi, giọng văn, mức độ học thuật, hoặc yêu cầu về cấu trúc trình bày.
+  - Kết hợp nhiều điều kiện: Có thể đồng thời áp dụng giới hạn về chủ đề, yêu cầu về ngôn ngữ, định dạng và tiêu chí đánh giá.
+
+ ![Giao diện Cấu hình nâng cao bài kiểm tra](/img/png/demo_kiemtra.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện Cấu hình nâng cao bài kiểm tra.</em>
+</p>
+
+  - *Ví dụ minh họa từ giao diện*: Giảng viên nhập yêu cầu ngôn ngữ đầu ra của bộ đề kiểm tra: `Nội dung câu hỏi bằng tiếng Đức.`
+  - Khi lưu cấu hình, hệ thống sẽ:
+      - Tự động tạo các câu hỏi trắc nghiệm đúng số lượng và định dạng đã cấu hình.
+      - Sinh toàn bộ nội dung câu hỏi, lựa chọn đáp án và đáp án đúng bằng tiếng Đức.
+      - Giữ nguyên cấu trúc bộ đề và chấm điểm theo thông số đã thiết lập trước.
+
+ ![Giao diện Ví dụ minh họa](/img/png/demo_kiemtra_cauhoi.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện Cấu hình đề kiểm tra.</em>
+</p>
+
 - Làm bài kiểm tra (đánh giá hoạt động).
 - Xem lịch sử làm bài của Sinh viên.
 
- ![Giao diện cấu hình bài kiểm tra](/img/gif/GV_lichsudiem.gif)
+ ![Giao diện Lịch sử làm bài](/img/gif/GV_lichsudiem.gif)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Lịch sử làm bài.</em>
