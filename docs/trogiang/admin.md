@@ -174,6 +174,13 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
           <p style={{ textAlign: 'center' }}>
             <em>Giao diện Tạo mới Bài giảng AI.</em>
           </p>
+    - Hệ thống hỗ trợ tải lên **Hình ảnh** hoặc **file PowerPoint** (định dạng `JPEG, JPG, PNG, PPTX` tối đa 10 MB).
+
+   ![Giao diện Upload file PowerPoint](/img/png/upload_pptx.png)
+
+    <p style={{ textAlign: 'center' }}>
+      <em>Giao diện Upload file PowerPoint.</em>
+    </p>
 
 - Chức năng **Bài đọc**:
     - Hỗ trợ soạn nội dung bằng `Markdown` — giúp định dạng văn bản, chèn code, liên kết, bảng biểu,... *(Lưu ý chỉ có thể thêm Bài đọc sau khi tạo Trợ giảng).*
@@ -220,6 +227,43 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 - Tạo mới: Quản trị viên có thể tạo các Học liệu mới trong hệ thống.
 - Chỉnh sửa thông tin: Thay đổi thông tin cơ bản bao gồm: Tên Học liệu, mô tả Học liệu, file Học liệu.
 - Tìm kiếm thông tin: Tìm kiếm thông tin Học liệu theo tên.
+
+### 5.3. Phân tích
+
+- Giao diện **Phân tích học phần** cung cấp các báo cáo trực quan giúp quản trị viên hoặc giảng viên đánh giá kết quả học tập và tiến độ của sinh viên đối với từng học phần.
+
+![Giao diện Phân tích học phần](/img/png/hocphan_phantich.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện Phân tích học phần.</em>
+</p>
+
+#### 5.3.1. Bộ lọc và tìm kiếm
+- **Mã phân tích**: Cho phép chọn mã phân tích cụ thể.
+- **Nhóm**: Lọc theo nhóm sinh viên.
+- **Mã học phần**: Lọc theo học phần.
+- **Lớp**: Lọc dữ liệu theo từng lớp học.
+- **Trợ giảng**: Lọc dữ liệu theo trợ giảng AI được gán cho học phần.
+
+#### 5.3.2. Biểu đồ phân bổ điểm
+- Biểu đồ đường thể hiện **phân bố điểm của sinh viên** theo thang điểm 1–10.
+- Trục ngang: Thang điểm.
+- Trục dọc: Số lượng sinh viên đạt mức điểm tương ứng.
+- Giúp đánh giá tổng quan mức độ phân hóa điểm số.
+
+#### 5.3.3. Tiến độ học theo trợ giảng
+- Biểu đồ thanh ngang thể hiện phần trăm hoàn thành các chương hoặc nội dung của học phần.
+- Các mục bao gồm: Các trợ giảng có trong Học phần
+- Màu đậm thể hiện tỷ lệ hoàn thành, màu xám thể hiện phần chưa hoàn thành.
+
+#### 5.3.4. Tỷ lệ sinh viên làm bài
+- Biểu đồ thanh thể hiện tỷ lệ **Đã làm** và **Chưa làm** bài tập/kiểm tra theo từng lớp.
+- Màu xanh lá: Đã làm.
+- Màu xám: Chưa làm.
+
+#### 5.3.5. Điểm trung bình các lớp
+- Biểu đồ cột thể hiện **điểm trung bình** của từng lớp trong học phần.
+- Giúp so sánh kết quả học tập giữa các lớp.
 
 ## 6. Quản lý Lớp học
 - Xem danh sách: Admin có thể xem các Lớp học có trong hệ thống.
