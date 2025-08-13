@@ -120,7 +120,7 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
   - Điều chỉnh ngôn ngữ và phong cách: Chỉ định ngôn ngữ tạo câu hỏi, giọng văn, mức độ học thuật, hoặc yêu cầu về cấu trúc trình bày.
   - Kết hợp nhiều điều kiện: Có thể đồng thời áp dụng giới hạn về chủ đề, yêu cầu về ngôn ngữ, định dạng và tiêu chí đánh giá.
 
- ![Giao diện Cấu hình nâng cao bài kiểm tra](/img/png/demo_kiemtra.png)
+ ![Giao diện Cấu hình nâng cao bài kiểm tra](/img/png/demo_kiemtra_cauhoi.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Cấu hình nâng cao bài kiểm tra.</em>
@@ -132,7 +132,7 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
       - Sinh toàn bộ nội dung câu hỏi, lựa chọn đáp án và đáp án đúng bằng tiếng Đức.
       - Giữ nguyên cấu trúc bộ đề và chấm điểm theo thông số đã thiết lập trước.
 
- ![Giao diện Ví dụ minh họa](/img/png/demo_kiemtra_cauhoi.png)
+ ![Giao diện Ví dụ minh họa](/img/png/demo_kiemtra.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Cấu hình đề kiểm tra.</em>
