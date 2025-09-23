@@ -27,4 +27,3 @@ Sinh viên:
 Hiện tại hệ thống chỉ hỗ trợ đăng nhập bằng `gmail`.
 
 :::
-
