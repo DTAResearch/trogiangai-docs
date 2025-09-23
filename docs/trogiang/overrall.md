@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Tổng quan
 
-Hệ thống Trợ giảng AI như một "giảng viên ảo", hệ thống hỗ trợ sinh viên tự học theo học phần, trả lời thắc mắc và gợi ý nội dung trọng tâm.
+Như một "giảng viên ảo", hệ thống hỗ trợ sinh viên tự học theo học phần, luyện tập qua bài tập và bài kiểm tra, đồng thời trả lời thắc mắc và gợi ý nội dung trọng tâm.
 
 Giao diện hệ thống gồm: Vùng hiển thị chính, thanh ngang tác vụ và menu các tabs.
 
