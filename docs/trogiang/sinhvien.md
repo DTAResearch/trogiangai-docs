@@ -78,9 +78,15 @@ Từ danh sách trợ giảng, học sinh có thể xem lịch sử các đoạn
 
 #### Xem nội dung bài giảng
 
-Học sinh có thể truy cập vào xem bài giảng hoặc làm bài kiểm tra bằng cách chọn vào mô hình trợ giảng.
+Học sinh có thể truy cập vào xem bài giảng hoặc làm bài kiểm tra bằng cách chọn nút Bài giảng AI trên mô hình trợ giảng.
 
-![Bài giảng](/img/gif/baiGiang.gif)
+![Nút Bài giảng AI](/img/png/nutBaiGiangAI.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Vị trí nút Bài giảng AI.</em>
+</p>
+
+![Bài giảng](/img/png/baiGiang.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Bài giảng.</em>
@@ -88,17 +94,23 @@ Học sinh có thể truy cập vào xem bài giảng hoặc làm bài kiểm tr
 
 #### Làm bài kiểm tra
 
-Học sinh có thể bắt đầu kiểm tra bằng cách chọn **Làm bài kiểm tra**
+Học sinh có thể bắt đầu kiểm tra bằng cách chọn nút **Kiểm tra** trên mô hình trợ giảng
+
+![Nút Kiểm tra](/img/png/nutKiemtra.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Vị trí nút Kiểm tra.</em>
+</p>
 
 Các câu hỏi sẽ được tạo tự động bằng AI từ dữ liệu bài giảng, bao gồm 20 câu hỏi: `Trắc nghiệm`, `Điền chỗ trống` và `Tự luận`.
 
-![Giao diện câu hỏi kiểm tra](/img/gif/questionTest.gif)
+![Giao diện câu hỏi kiểm tra](/img/gif/testWithAI.gif)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Các dạng câu hỏi kiểm tra.</em>
 </p>
 
-Sau khi Sinh viên hoàn thành hết 20 câu kiểm tra tợ lý AI sẽ chấm bài đưa ra `Điểm số`, `Tỷ lệ đúng`, `Thời gian`, `Nhận xét tổng quan`, `Kiến thức đã nắm được`, `Cần Cải Thiện`, `Gợi ý cải thiện`, Xem chi tiết đáp án từng câu và giải thích đáp án.
+Sau khi Sinh viên hoàn thành hết các câu kiểm tra trợ lý AI sẽ chấm bài đưa ra `Điểm số`, `Tỷ lệ đúng`, `Thời gian`, `Nhận xét tổng quan`, `Kiến thức đã nắm được`, `Cần Cải Thiện`, `Gợi ý cải thiện`, Xem chi tiết đáp án từng câu và giải thích đáp án.
 
 ![Giao diện kiểm tra với AI](/img/gif/testWithAI.gif)
 
@@ -112,6 +124,12 @@ Sau khi Sinh viên hoàn thành hết 20 câu kiểm tra tợ lý AI sẽ chấm
       ![Giao diện Nội dung Bài giảng AI](/img/png/GV_NoidungBaigiangAI.png)
       <p style={{ textAlign: 'center' }}>
         <em>Giao diện Nội dung Bài giảng AI.</em>
+      </p>
+
+- **Học qua audio bài giảng:** Sinh viên có thể bật tính năng Audio để nghe toàn bộ nội dung bài giảng. Ngoài ra sinh viên có thể tạm dừng, tua lại, điều chỉnh tốc độ phát hoặc nghe lại nhiều lần để củng cố kiến thức của mình.
+      ![Audio bài giảng](/img/png/audio.png)
+      <p style={{ textAlign: 'center' }}>
+        <em>Vị trí bật audio bài giảng.</em>
       </p>
 
 - **Tương tác với nội dung**: Sinh viên chỉ có thể chuyển slide sau khi trả lời đúng câu hỏi ôn tập (hiểu bài).
@@ -131,5 +149,6 @@ Sau khi Sinh viên hoàn thành hết 20 câu kiểm tra tợ lý AI sẽ chấm
   2. Chọn bài giảng mong muốn từ danh sách hoặc tìm kiếm bằng từ khóa.
   3. Nhấp vào **Bài giảng AI** để xem nội dung hoặc bắt đầu tương tác với AI.
   4. Sử dụng ô nhập liệu để đặt câu hỏi hoặc yêu cầu tóm tắt nội dung.
-  5. Trả lời câu hỏi ôn tập để chuyển sang slide kế tiếp.
+  5. Bật audio để nghe trực tiếp nội dung bài giảng.
+  6. Trả lời câu hỏi ôn tập để chuyển sang slide kế tiếp.
 

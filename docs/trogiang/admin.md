@@ -147,7 +147,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 </p> -->
 
 ### 5.1. Trợ giảng
-- Xem danh sách: Admin có thể xem các Trợ giảng có trong hệ thống.
+- Xem danh sách: Admin có thể xem các Trợ giảng có trong hệ thống.Hỗ trợ tìm kiếm nhanh theo tên Trợ giảng.
 
 ![Danh sách Trợ giảng](/img/png/dstrogiang.png)
 
@@ -155,9 +155,25 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
   <em>Giao diện quản trị danh sách Trợ giảng.</em>
 </p>
 
-- Tạo mới: Quản trị viên có thể tạo các Trợ giảng mới trong hệ thống.
+- Tạo mới: Quản trị viên có thể tạo Trợ giảng mới, đồng thời thiết lập học liệu, đề kiểm tra và bài giảng AI liên quan để hệ thống hỗ trợ giảng dạy tự động.
+  - Quản trị viên nhập tên trợ giảng, chọn Học liệu tương ứng cho trợ giảng.  
+  - Tạo đề kiểm tra (tùy chọn): Cho phép cấu hình cấu trúc đề và thang điểm gồm:
+    - Số lượng câu hỏi cho từng loại (Trắc nghiệm, Điền từ, Tự luận).
+    - Tổng điểm cho từng loại câu hỏi và tổng điểm toàn bài.
+    - Có thể nhập Đoạn lệnh (prompt) bổ sung để AI tạo đề theo yêu cầu cụ thể.
+  - Tạo bài giảng AI (tùy chọn): Cho phép hệ thống tự động tạo bài giảng dựa trên Học liệu đã chọn.
+    - Có thể bật thêm tùy chọn Tạo câu hỏi để gắn vào các trang slide.
+    - Hệ thống hỗ trợ tải lên các tệp định dạng .jpeg, .jpg, .png, .pptx (tối đa 10 MB).
+    - Có thể thêm Prompt bổ sung để tinh chỉnh nội dung bài giảng AI.
+
+
+![Tạo mới Trợ giảng](/img/png/QTVtaoTrogiang.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện tạo mới trợ giảng.</em>
+</p>
+
 - Chỉnh sửa thông tin: Thay đổi thông tin cơ bản bao gồm: Tên trợ giảng, Chọn mô hình gốc, quyền truy cập, mô tả; Học liệu nâng cao: Chọn Học liệu sẵn có, ngữ cảnh hệ thống, gợi ý câu hỏi.
-- Tìm kiếm thông tin: Tìm kiếm thông tin Trợ giảng theo tên.
 
 <!-- ![Tạo mới Trợ giảng](/img/png/taomoi_troly.png) -->
 

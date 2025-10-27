@@ -44,7 +44,7 @@ Tìm kiếm thông tin chương trình đào tạo theo tên, bộ lọc theo H�
 
 ### 1.1. Trợ giảng
 
-Giảng viên/Giáo viên có thể xem danh sách các **`Trợ giảng`** có trong hệ thống và tìm kiếm thông tin **`Trợ giảng`** theo tên.
+Giảng viên/Giáo viên có thể xem danh sách các **`Trợ giảng`** có trong học phần và tìm kiếm thông tin **`Trợ giảng`** theo tên.
 
 ![Giao diện quản trị danh sách Trợ giảng](/img/png/GV_dstrogiang.png)
 
