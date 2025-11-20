@@ -288,5 +288,3 @@ Hiển thị thông tin số lượng người tương tác.
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện thống kê Học phần.</em>
 </p>
-
-### TEST
