@@ -137,6 +137,18 @@ Sau khi Sinh viên hoàn thành hết các câu kiểm tra trợ lý AI sẽ ch�
         <em>Giao diện Chat Bài giảng AI.</em>
       </p>
 
+- **Sinh viên kiểm tra tiến độ bài học:** Sinh viên có thể kiểm tra tiến độ bài học tập của mình trong và sau quá trình học tập trên bài giảng AI.
+     ![Nút kiểm tra tiến độ](/img/SV_img/SV_nuttiendo.png)
+      <p style={{ textAlign: 'center' }}>
+        <em>Sinh viên chọn nút để kiểm tra tiến độ học tập.</em>
+      </p>
+
+     ![Giao diện kiểm tra tiến độ học tập](/img/SV_img/SV_tiendo.png)
+      <p style={{ textAlign: 'center' }}>
+        <em>Giao diện kiểm tra tiến độ học tập.</em>
+      </p>
+
+
 - **Hướng dẫn sử dụng**:
   1. Truy cập danh sách **Trợ giảng** từ giao diện Quản lý Học phần.
   2. Chọn bài giảng mong muốn từ danh sách hoặc tìm kiếm bằng từ khóa.

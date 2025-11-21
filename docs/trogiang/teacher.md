@@ -240,6 +240,52 @@ Giảng viên/Giáo viên có thể xem chi tiết Học liệu và chọn vào 
 - Biểu đồ cột thể hiện **điểm trung bình** của từng lớp trong học phần.
 - Giúp so sánh kết quả học tập giữa các lớp.
 
+### 1.4 Giám sát
+- Giao diện **Giám sát** cung cấp cho giảng viên các báo cáo tổng hợp về tiến độ làm bài tập của sinh viên và tổng hợp điểm số của các bài tập sinh viên đã hoàn thành.
+
+![Giao diện Giám sát cho giảng viên](/img/GV_img/GV_giamsat.png)
+![Giao diện Giám sát cho giảng viên](/img/GV_img/GV_giamsat2.png)
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện Giám sát cho giảng viên.</em>
+</p>
+
+#### 1.4.1. Bộ lọc và tìm kiếm
+- **Mã phân tích**: Cho phép chọn mã phân tích cụ thể.
+- **Nhóm**: Lọc theo nhóm sinh viên.
+- **Mã học phần**: Lọc theo học phần.
+- **Lớp**: Lọc dữ liệu theo từng lớp học.
+- **Trợ giảng**: Lọc dữ liệu theo trợ giảng AI được gán cho học phần.
+- **Tên**: Lọc dữ liệu theo tên của sinh viên.
+- **Email**: Lọc dữ liệu theo email của sinh viên.
+
+#### 1.4.2.  Danh sách sinh viên làm bài
+- **Lớp**: Hiển thị lớp của sinh viên.
+- **Trợ giảng**: Hiển thị trợ giảng sinh viên tham gia làm bài.
+- **Email**, **Họ tên**: Hiển thị thông tin email, họ tên của sinh viên.
+- **Điểm cao nhất**: Điểm số cao nhất trong các lần làm bài của sinh viên.
+- **Điểm các bài**: Tổng hợp điểm số của các lần làm bài.
+-**Trạng thái**: Hiển thị trạng thái của bài tập đó (Đã hoàn thành, Đang làm).
+
+#### 1.4.3.  Danh sách sinh viên chưa làm bài
+- **Lớp**: Hiển thị lớp của sinh viên.
+- **Trợ giảng**: Hiển thị trợ giảng sinh viên tham gia làm bài.
+- **Email**, **Họ tên**: Hiển thị thông tin email, họ tên của sinh viên.
+
+#### 1.4.4. Tổng kết điểm cho môn học
+- **Lớp**: Hiển thị lớp của sinh viên.
+- **Email**, **Họ tên**: Hiển thị thông tin email, họ tên của sinh viên.
+- **avg_score_overall**: Điểm trung bình tất cả các bài làm của sinh viên.
+- **Các cột còn lại**: Mỗi cột đại diện cho một bài tập sinh viên đã làm và điểm số của bài tương ứng.
+
+#### 1.4.5. Tự học
+- Cung cấp dữ liệu để giảng viên giám sát quá trình tự học của từng sinh viên gồm tiến độ tự học của từng sinh viên, của từng lớp và điểm tự học của sinh viên ứng với mỗi trợ giảng, dữ liệu sẽ được tính toán dựa trên số slide sinh viên đã học, thời gian học so với deadline,...
+
+![Giao diện Giám sát tự học](/img/GV_img/GV_giamsattuhoc.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện Giám sát tự học.</em>
+</p>
+
 ## 2. Quản lý Lớp học
 Giảng viên/Giáo viên có thể xem danh sách các **`Lớp học`** có trong hệ thống và tìm kiếm thông tin Lớp theo tên.
 
@@ -261,7 +307,40 @@ Xem thông tin các sinh viên thuộc lớp học có trong hệ thống.
   <em>Giao diện quản trị danh sách sinh viên trong lớp học.</em>
 </p>
 
-## 3. Phân tích
+
+## 3. Thiết lập hạn học tập cho lớp học
+- Chức năng thiết lập hạn này cho phép giáo viên tạo một deadline cho các lớp học tham gia vào học tập các trợ giảng của các học phần để giúp cả giảng viên và sinh viên đảm bảo được tiến độ học tập hợp lý cho từng chương, bài.
+- **Thiết lập cho từng lớp**: Giảng viên có thể thiết lập deadline cho từng lớp học khác nhau, giảng viên có thể thay đổi ngày tháng và giờ bắt đầu, kết thúc trợ giảng cho mỗi lớp khác nhau, sau đó cũng có thể tự động lên lịch cho các chương còn lại mà không cần làm thủ công.
+
+![Nút thiết lập deadline cho lớp học](/img/GV_img/GV_nutdeadline.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Nút thiết lập deadline cho lớp học.</em>
+</p>
+
+![Giao diện thiết lập deadline cho lớp học](/img/GV_img/GV_deadlinetungmon.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện thiết lập deadline cho lớp học.</em>
+</p>
+
+
+- **Thiết lập cho toàn bộ học phần**: Thay vì thiết lập deadline cho từng lớp và từng trợ giảng thuộc các học phần mình đang giảng dạy, giảng viên có thể thiết lập trực tiếp deadline cho học phần mình chọn và áp dụng lên tất cả lớp học mình đang giảng dạy.
+
+![Nút thiết lập deadline cho học phần](/img/GV_img/GV_nutdeadline2.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Nút thiết lập deadline cho học phần.</em>
+</p>
+
+![Giao diện thiết lập deadline cho học phần](/img/GV_img/GV_deadlinetoanbo.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện thiết lập deadline cho học phần.</em>
+</p>
+
+
+## 4. Phân tích
 
 <!-- ### Thống kê toàn bộ hội thoại của sinh viên theo từng trợ lý có trong lớp học
 Tổng hợp dữ liệu từ tất cả các lớp học và trợ lý giảng viên/giáo viên phụ trách. -->
@@ -272,20 +351,13 @@ Tổng hợp dữ liệu từ tất cả các lớp học và trợ lý giảng 
   <em>Giao diện thống kê Hội thoại của sinh viên.</em>
 </p> -->
 
-### Thống kê theo từng lớp học
-Hiển thị thông tin chi tiết số lượng sinh viên của từng lớp, số lượng người đã tương tác của từng lớp.
+### Phân tích theo từng lớp học và học phần
+Hiển thị thông tin chi tiết số lượng sinh viên của từng lớp và điểm số theo học phần, số lượng người đã tương tác.
 
-<!-- ![Giao diện thống kê Lớp](/img/png/thongkelophoc.png) -->
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện thống kê Lớp.</em>
-</p>
-
-### Thống kê theo từng học phần
-Hiển thị thông tin số lượng người tương tác.
-
-<!-- ![Giao diện thống kê Học phần](/img/png/thongkehocphan.png) -->
+![Giao diện Phân tích Lớp](/img/GV_img/GV_phantichlop.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện thống kê Học phần.</em>
+  <em>Giao diện Phân tích theo Lớp và điểm số Học phần.</em>
 </p>
+
+
