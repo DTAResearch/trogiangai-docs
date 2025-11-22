@@ -69,7 +69,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 
 - Xem danh sách: Admin có thể xem các khoa có trong hệ thống.
 
-![Danh sách Khoa](/img/png/dskhoa.png)
+![Danh sách Khoa](/img/Admin_img/Ad_dskhoa.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Khoa.</em>
@@ -90,7 +90,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 
 - Xem danh sách: Admin có thể xem các chuyên ngành có trong hệ thống.
 
-![Danh sách Chuyên ngành](/img/png/dschuyennganh.png)
+![Danh sách Chuyên ngành](/img/Admin_img/Ad_chuyennganh.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Chuyên ngành.</em>
@@ -110,7 +110,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 
 - Xem danh sách: Admin có thể xem các CTĐT có trong hệ thống.
 
-![Danh sách CTĐT](/img/png/dsctdt.png)
+![Danh sách CTĐT](/img/Admin_img/Ad_ctdt.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách CTĐT.</em>
@@ -130,7 +130,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 
 - Xem danh sách: Admin có thể xem các Học phần có trong hệ thống.
 
-![Danh sách Học phần](/img/png/dshocphan.png)
+![Danh sách Học phần](/img/Admin_img/Ad_dshocphan.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Học phần.</em>
@@ -149,7 +149,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 ### 5.1. Trợ giảng
 - Xem danh sách: Admin có thể xem các Trợ giảng có trong hệ thống.Hỗ trợ tìm kiếm nhanh theo tên Trợ giảng.
 
-![Danh sách Trợ giảng](/img/png/dstrogiang.png)
+![Danh sách Trợ giảng](/img/Admin_img/Ad_trogiang.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Trợ giảng.</em>
@@ -167,7 +167,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
     - Có thể thêm Prompt bổ sung để tinh chỉnh nội dung bài giảng AI.
 
 
-![Tạo mới Trợ giảng](/img/png/QTVtaoTrogiang.png)
+![Tạo mới Trợ giảng](/img/Admin_img/Ad_taomoitrogiang.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện tạo mới trợ giảng.</em>
@@ -186,7 +186,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
     - **Tạo và quản lý Bài giảng AI**: Hệ thống hỗ trợ người dùng tạo mới, chỉnh sửa và xóa các bài giảng được hỗ trợ bởi trí tuệ nhân tạo (AI). Các thông tin cấu hình bao gồm tiêu đề, nội dung bài giảng, .
 
     - **Tùy chỉnh nội dung**: Người dùng có thể để AI tự động tạo bài giảng phù hợp, bao gồm văn bản, câu hỏi tương tác và ví dụ minh họa thông qua hình ảnh hoặc nhập nội dung chi tiết.
-          ![Giao diện Tạo mới Bài giảng AI](/img/png/GV_TaoBaigiangAI.png)
+          ![Giao diện Tạo mới Bài giảng AI](/img/Admin_img/Ad_taomoibaigiang.png)
           <p style={{ textAlign: 'center' }}>
             <em>Giao diện Tạo mới Bài giảng AI.</em>
           </p>
@@ -201,7 +201,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 - Chức năng **Bài đọc**:
     - Hỗ trợ soạn nội dung bằng `Markdown` — giúp định dạng văn bản, chèn code, liên kết, bảng biểu,... *(Lưu ý chỉ có thể thêm Bài đọc sau khi tạo Trợ giảng).*
 
-    ![Giao diện thêm nội dung Bài đọc](/img/gif/GV_taobaigiang.gif)
+    ![Giao diện thêm nội dung Bài đọc](/img/gif-new/suabaidoc.gif)
 
     <p style={{ textAlign: 'center' }}>
       <em>Giao diện Thêm nội dung Bài đọc.</em>
@@ -216,7 +216,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
         - Trắc nghiệm: Nội dung câu hỏi, điểm số, đáp án mẫu, tiêu chí chấm điểm.
     - Xóa bộ đề kiểm tra
 
- ![Giao diện cấu hình bài kiểm tra](/img/gif/GV_Cauhinhbaikiemtra.gif)
+ ![Giao diện cấu hình bài kiểm tra](/img/Admin_img/Ad_baitap.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Cấu hình đề kiểm tra.</em>
@@ -229,7 +229,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
   - Điều chỉnh ngôn ngữ và phong cách: Chỉ định ngôn ngữ tạo câu hỏi, giọng văn, mức độ học thuật, hoặc yêu cầu về cấu trúc trình bày.
   - Kết hợp nhiều điều kiện: Có thể đồng thời áp dụng giới hạn về chủ đề, yêu cầu về ngôn ngữ, định dạng và tiêu chí đánh giá.
 
- ![Giao diện Cấu hình nâng cao bài kiểm tra](/img/png/demo_kiemtra_cauhoi.png)
+ ![Giao diện Cấu hình nâng cao bài kiểm tra](/img/Admin_img/Ad_cauhinhkiemtranangcao.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Cấu hình nâng cao bài kiểm tra.</em>
@@ -241,7 +241,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
       - Sinh toàn bộ nội dung câu hỏi, lựa chọn đáp án và đáp án đúng bằng tiếng Đức.
       - Giữ nguyên cấu trúc bộ đề và chấm điểm theo thông số đã thiết lập trước.
 
- ![Giao diện Ví dụ minh họa](/img/png/demo_kiemtra.png)
+ ![Giao diện Ví dụ minh họa](/img/Admin_img/Ad_chinhsuade.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Ví dụ minh họa.</em>
@@ -250,7 +250,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
     - Làm bài kiểm tra (đánh giá hoạt động).
     - Xem lịch sử làm bài của Sinh viên.
 
-     ![Giao diện cấu hình bài kiểm tra](/img/gif/GV_lichsudiem.gif)
+     ![Giao diện cấu hình bài kiểm tra](/img/gif-new/xembaitap.gif)
 
     <p style={{ textAlign: 'center' }}>
       <em>Giao diện Lịch sử làm bài.</em>
@@ -259,7 +259,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 ### 5.2. Học liệu
 - Xem danh sách: Admin có thể xem các Học liệu có trong hệ thống.
 
-![Danh sách Học liệu](/img/png/dshoclieu.png)
+![Danh sách Học liệu](/img/Admin_img/Ad_hoclieu.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Học liệu.</em>
@@ -273,7 +273,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 
 - Giao diện **Phân tích học phần** cung cấp các báo cáo trực quan giúp quản trị viên hoặc giảng viên đánh giá kết quả học tập và tiến độ của sinh viên đối với từng học phần.
 
-![Giao diện Phân tích học phần](/img/png/hocphan_phantich.png)
+![Giao diện Phân tích học phần](/img/Admin_img/Ad_phantich.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Phân tích học phần.</em>
@@ -309,7 +309,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 ## 6. Quản lý Lớp học
 - Xem danh sách: Admin có thể xem các Lớp học có trong hệ thống.
 
-![Danh sách Lớp](/img/png/dslop.png)
+![Danh sách Lớp](/img/Admin_img/Ad_dslophoc.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Lớp.</em>
@@ -328,7 +328,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 - Phân tích: Admin có thể xem báo cáo chi tiết về tiến độ và kết quả học tập của từng lớp.
 - Thành viên: Xem thông tin các sinh viên thuộc lớp học có trong hệ thống. Quản trị viên có thể thêm sinh viên vào Lớp học. Tìm kiếm thông tin sinh viên trong lớp học theo tên.
 
-![Danh sách sinh viên trong lớp học](/img/png/ds_thanhvienlop.png)
+![Danh sách sinh viên trong lớp học](/img/Admin_img/Ad_thanhvienlop.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách sinh viên trong lớp học.</em>
@@ -338,7 +338,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 
 - Xem danh sách: Admin có thể xem tất cả Người dùng có trong hệ thống.
 
-![Danh sách Người dùng](/img/png/dsnguoidung.png)
+![Danh sách Người dùng](/img/Admin_img/Ad_nguoidung.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách người dùng trong hệ thống.</em>
@@ -348,7 +348,7 @@ Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ
 - Chỉnh sửa thông tin: Thay đổi thông tin phân loại người dùng theo vai trò.
 - Tìm kiếm thông tin: Tìm kiếm thông tin người dùng theo tên, email, lọc theo vai trò.
 
-![Tạo mới Người dùng](/img/png/import_excel.png)
+![Tạo mới Người dùng](/img/Admin_img/Ad_nhapexcel.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện thêm người dùng bằng Excel trong hệ thống.</em>

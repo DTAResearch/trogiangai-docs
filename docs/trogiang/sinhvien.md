@@ -27,7 +27,7 @@ Tài khoản sinh viên được thiết kế để hỗ trợ người học tr
 ## 1. Thống kê cá nhân
 Xem báo cáo kết quả học tập: Sinh viên có thể theo dõi tiến độ được lịch sử cuộc hội thoại của mình. Trong tương lai sản phẩm sẽ phát triển để sinh viên có thể xem được thống kê của bản thân và thống kê được kết quả học tập của mình (điểm yếu, điểm cần cải thiện)
 
-![Thống kê cá nhân](/img/png/thongke.png)
+![Thống kê cá nhân](/img/SV_img/SV_thongke.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện thống kê cá nhân.</em>
@@ -36,7 +36,7 @@ Xem báo cáo kết quả học tập: Sinh viên có thể theo dõi tiến đ�
 ## 2. Quản lý Học phần
 **Xem danh sách:** Xem các Học phần có trong hệ thống.
 
-![Học phần sinh viên](/img/png/hocphan.png)
+![Học phần sinh viên](/img/SV_img/SV_hocphan.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện danh sách Học phần.</em>
@@ -44,7 +44,7 @@ Xem báo cáo kết quả học tập: Sinh viên có thể theo dõi tiến đ�
 
 **Tìm kiếm thông tin:** Tìm kiếm thông tin chương trình đào tạo theo tên, bộ lọc theo Học kỳ hoặc theo Chương trình đào tạo.
 
-![Tìm kiếm thông tin theo tên](/img/png/timkiemhocphantheoten.png)
+![Tìm kiếm thông tin theo tên](/img/SV_img/SV_timkiemhocphan.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện tìm kiếm học phần theo tên.</em>
@@ -53,7 +53,7 @@ Xem báo cáo kết quả học tập: Sinh viên có thể theo dõi tiến đ�
 ### a. Học liệu
 Xem danh sách: Xem các Học liệu có trong hệ thống.
 
-![Học liệu](/img/png/hoclieu.png)
+![Học liệu](/img/SV_img/SV_dshoclieu.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Học liệu.</em>
@@ -62,25 +62,18 @@ Xem danh sách: Xem các Học liệu có trong hệ thống.
 ### b. Trợ giảng
 **Xem danh sách:** Xem các `Trợ giảng` có trong hệ thống.
 
-![Danh sách trợ giảng](/img/png/dstrogiang.png)
+![Danh sách trợ giảng](/img/SV_img/SV_dstrogiang.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách trợ giảng.</em>
 </p>
 
-Từ danh sách trợ giảng, học sinh có thể xem lịch sử các đoạn chat đã tạo trước đó, truy cập đến đoạn chat cũ, tạo mới đoạn chat với Trợ giảng đã chọn.
-
-![Lịch sử chat](/img/png/lichsuchat.png)
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện quản trị danh sách trợ giảng.</em>
-</p>
 
 #### Xem nội dung bài giảng
 
 Học sinh có thể truy cập vào xem bài giảng hoặc làm bài kiểm tra bằng cách chọn nút Bài giảng AI trên mô hình trợ giảng.
 
-![Nút Bài giảng AI](/img/png/nutBaiGiangAI.png)
+![Nút Bài giảng AI](/img/SV_img/SV_nutbaigiangAI.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Vị trí nút Bài giảng AI.</em>
@@ -96,7 +89,7 @@ Học sinh có thể truy cập vào xem bài giảng hoặc làm bài kiểm tr
 
 Học sinh có thể bắt đầu kiểm tra bằng cách chọn nút **Kiểm tra** trên mô hình trợ giảng
 
-![Nút Kiểm tra](/img/png/nutKiemtra.png)
+![Nút Kiểm tra](/img/SV_img/SV_nutbaitap.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Vị trí nút Kiểm tra.</em>
@@ -121,7 +114,7 @@ Sau khi Sinh viên hoàn thành hết các câu kiểm tra trợ lý AI sẽ ch�
 #### Bài giảng AI
 
 - **Truy cập và học tập linh hoạt**: Hệ thống cho phép sinh viên đọc nội dung bài giảng, bao gồm văn bản, hình ảnh đính kèm, được tạo tự động bởi AI dựa trên dữ liệu học phần.
-      ![Giao diện Nội dung Bài giảng AI](/img/png/GV_NoidungBaigiangAI.png)
+      ![Giao diện Nội dung Bài giảng AI](/img/SV_img/SV_baigiangAI.png)
       <p style={{ textAlign: 'center' }}>
         <em>Giao diện Nội dung Bài giảng AI.</em>
       </p>
@@ -133,16 +126,28 @@ Sau khi Sinh viên hoàn thành hết các câu kiểm tra trợ lý AI sẽ ch�
       </p>
 
 - **Tương tác với nội dung**: Sinh viên chỉ có thể chuyển slide sau khi trả lời đúng câu hỏi ôn tập (hiểu bài).
-      ![Giao diện Câu hỏi ôn tập Bài giảng AI](/img/png/GV_TraloiBaigiangAI.png)
+      ![Giao diện Câu hỏi ôn tập Bài giảng AI](/img/SV_img/SV_cauhoislide.png)
       <p style={{ textAlign: 'center' }}>
         <em>Giao diện Câu hỏi ôn tập Bài giảng AI.</em>
       </p>
 
 - **Hỏi đáp chủ động**: Sinh viên có thể đặt câu hỏi trực tiếp với Trợ giảng AI để làm rõ kiến thức, với giao diện hỗ trợ **lịch sử chat** để xem lại các đoạn hội thoại cũ.
-      ![Giao diện Chat Bài giảng AI](/img/png/GV_ChatBaigiangAI.png)
+      ![Giao diện Chat Bài giảng AI](/img/SV_img/SV_chatAI.png)
       <p style={{ textAlign: 'center' }}>
         <em>Giao diện Chat Bài giảng AI.</em>
       </p>
+
+- **Sinh viên kiểm tra tiến độ bài học:** Sinh viên có thể kiểm tra tiến độ bài học tập của mình trong và sau quá trình học tập trên bài giảng AI.
+     ![Nút kiểm tra tiến độ](/img/SV_img/SV_nuttiendo.png)
+      <p style={{ textAlign: 'center' }}>
+        <em>Sinh viên chọn nút để kiểm tra tiến độ học tập.</em>
+      </p>
+
+     ![Giao diện kiểm tra tiến độ học tập](/img/SV_img/SV_tiendo.png)
+      <p style={{ textAlign: 'center' }}>
+        <em>Giao diện kiểm tra tiến độ học tập.</em>
+      </p>
+
 
 - **Hướng dẫn sử dụng**:
   1. Truy cập danh sách **Trợ giảng** từ giao diện Quản lý Học phần.

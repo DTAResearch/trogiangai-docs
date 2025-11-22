@@ -36,7 +36,7 @@ Xem danh sách các **`Học phần`** giảng viên/giáo viên được giao c
 
 Tìm kiếm thông tin chương trình đào tạo theo tên, bộ lọc theo Học kỳ hoặc theo Chương trình đào tạo.
 
-![Giao diện danh sách Học phần](/img/png/GV_dshocphan.png)
+![Giao diện danh sách Học phần](/img/GV_img/GV_dshocphan.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện danh sách Học phần.</em>
@@ -46,7 +46,7 @@ Tìm kiếm thông tin chương trình đào tạo theo tên, bộ lọc theo H�
 
 Giảng viên/Giáo viên có thể xem danh sách các **`Trợ giảng`** có trong học phần và tìm kiếm thông tin **`Trợ giảng`** theo tên.
 
-![Giao diện quản trị danh sách Trợ giảng](/img/png/GV_dstrogiang.png)
+![Giao diện quản trị danh sách Trợ giảng](/img/GV_img/GV_dstrogiang.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách Trợ giảng.</em>
@@ -84,7 +84,8 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
     ```
     - Gợi ý hệ thống *(tuỳ chọn)*: Là câu hỏi hướng dẫn có sẵn cho sinh viên khi truy cập vào chat học tiếp và chat với trợ giảng.
 
-![Giao diện tạo mới trợ giảng](/img/gif/GV_taotrogiang.gif)
+
+![Giao diện tạo mới trợ giảng](/img/gif-new/taotrogiang.gif)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Tạo mới trợ giảng.</em>
@@ -92,7 +93,7 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
 
 - Phần **Bài đọc**: Hỗ trợ soạn nội dung bằng `Markdown` — giúp định dạng văn bản, chèn code, liên kết, bảng biểu,... *(Lưu ý chỉ có thể thêm Bài đọc sau khi tạo Trợ giảng).*
 
-![Giao diện thêm nội dung Bài đọc](/img/gif/GV_taobaigiang.gif)
+![Giao diện thêm nội dung Bài đọc](/img/gif-new/suabaidoc.gif)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Thêm nội dung Bài đọc.</em>
@@ -107,7 +108,7 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
     - Trắc nghiệm: Nội dung câu hỏi, điểm số, đáp án mẫu, tiêu chí chấm điểm.
 - Xóa bộ đề kiểm tra
 
- ![Giao diện cấu hình bài kiểm tra](/img/gif/GV_Cauhinhbaikiemtra.gif)
+ ![Giao diện cấu hình bài kiểm tra](/img/Admin_img/Ad_baitap.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Cấu hình đề kiểm tra.</em>
@@ -120,7 +121,7 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
   - Điều chỉnh ngôn ngữ và phong cách: Chỉ định ngôn ngữ tạo câu hỏi, giọng văn, mức độ học thuật, hoặc yêu cầu về cấu trúc trình bày.
   - Kết hợp nhiều điều kiện: Có thể đồng thời áp dụng giới hạn về chủ đề, yêu cầu về ngôn ngữ, định dạng và tiêu chí đánh giá.
 
- ![Giao diện Cấu hình nâng cao bài kiểm tra](/img/png/demo_kiemtra_cauhoi.png)
+ ![Giao diện Cấu hình nâng cao bài kiểm tra](/img/GV_img/GV_cauhinhkiemtranangcao.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Cấu hình nâng cao bài kiểm tra.</em>
@@ -132,7 +133,7 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
       - Sinh toàn bộ nội dung câu hỏi, lựa chọn đáp án và đáp án đúng bằng tiếng Đức.
       - Giữ nguyên cấu trúc bộ đề và chấm điểm theo thông số đã thiết lập trước.
 
- ![Giao diện Ví dụ minh họa](/img/png/demo_kiemtra.png)
+ ![Giao diện Ví dụ minh họa](/img/Admin_img/Ad_chinhsuade.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Ví dụ minh họa.</em>
@@ -141,7 +142,7 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
 - Làm bài kiểm tra (đánh giá hoạt động).
 - Xem lịch sử làm bài của Sinh viên.
 
- ![Giao diện Lịch sử làm bài](/img/gif/GV_lichsudiem.gif)
+ ![Giao diện Lịch sử làm bài](/img/gif-new/xembaitap.gif)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Lịch sử làm bài.</em>
@@ -156,7 +157,7 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
 - **Hướng dẫn sử dụng**:
 
   **1.** Truy cập giao diện Bài giảng AI và nhấp vào nút **`Thêm bài giảng mới`** hoặc **`Tải ảnh lên`**.
-      ![Giao diện Tạo mới Bài giảng AI](/img/png/GV_TaoBaigiangAI.png)
+      ![Giao diện Tạo mới Bài giảng AI](/img/GV_img/GV_taomoibaigiang.png)
       <p style={{ textAlign: 'center' }}>
         <em>Giao diện Tạo mới Bài giảng AI.</em>
       </p>
@@ -171,7 +172,7 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
   **3.** Chỉnh sửa **Tiêu đề** cho bài giảng trong trường tương ứng.
 
   **4.** Chỉnh sửa **Nội dung** bằng cách nhập trực tiếp hoặc sử dụng công cụ Markdown để định dạng.
-      ![Giao diện chỉnh sửa Bài giảng AI](/img/png/GV_ChinhsuaTrogiang.png)
+      ![Giao diện chỉnh sửa Bài giảng AI](/img/GV_img/GV_editslide.png)
       <p style={{ textAlign: 'center' }}>
         <em>Giao diện Chỉnh sửa Bài giảng AI.</em>
       </p>
@@ -180,7 +181,7 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
 ### 1.2. Học liệu
 Giảng viên/Giáo viên có thể xem các **`Học liệu`** có trong hệ thống và tìm kiếm thông tin **`Học liệu`** theo tên.
 
-![Giao diện danh sách Học liệu](/img/png/GV_dshoclieu.png)
+![Giao diện danh sách Học liệu](/img/GV_img/GV_dshoclieu.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện danh sách Học liệu.</em>
@@ -188,7 +189,7 @@ Giảng viên/Giáo viên có thể xem các **`Học liệu`** có trong hệ t
 
 Giảng viên/Giáo viên có thể tạo học liệu mới, bao gồm: tên học liệu và file học liệu (hỗ trợ file `pdf`, `word`, `powerpoint`).
 
-![Giao diện danh sách Tạo học liệu mới](/img/png/GV_taohoclieu.png)
+![Giao diện danh sách Tạo học liệu mới](/img/GV_img/GV_taomoihoclieu.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Tạo học liệu mới.</em>
@@ -196,7 +197,7 @@ Giảng viên/Giáo viên có thể tạo học liệu mới, bao gồm: tên h�
 
 Giảng viên/Giáo viên có thể xem chi tiết Học liệu và chọn vào tên file để tải xuống tài liệu.
 
-![Giao diện chi tiết Học liệu](/img/png/GV_chitiethoclieu.png)
+![Giao diện chi tiết Học liệu](/img/GV_img/GV_chitiethoclieu.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện chi tiết Học liệu.</em>
@@ -206,7 +207,7 @@ Giảng viên/Giáo viên có thể xem chi tiết Học liệu và chọn vào 
 
 - Giao diện **Phân tích học phần** cung cấp các báo cáo trực quan giúp quản trị viên hoặc giảng viên đánh giá kết quả học tập và tiến độ của sinh viên đối với từng học phần.
 
-![Giao diện Phân tích học phần](/img/png/hocphan_phantich.png)
+![Giao diện Phân tích học phần](/img/GV_img/GV_phantichhocphan.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Phân tích học phần.</em>
@@ -239,10 +240,56 @@ Giảng viên/Giáo viên có thể xem chi tiết Học liệu và chọn vào 
 - Biểu đồ cột thể hiện **điểm trung bình** của từng lớp trong học phần.
 - Giúp so sánh kết quả học tập giữa các lớp.
 
+### 1.4 Giám sát
+- Giao diện **Giám sát** cung cấp cho giảng viên các báo cáo tổng hợp về tiến độ làm bài tập của sinh viên và tổng hợp điểm số của các bài tập sinh viên đã hoàn thành.
+
+![Giao diện Giám sát cho giảng viên](/img/GV_img/GV_giamsat.png)
+![Giao diện Giám sát cho giảng viên](/img/GV_img/GV_giamsat2.png)
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện Giám sát cho giảng viên.</em>
+</p>
+
+#### 1.4.1. Bộ lọc và tìm kiếm
+- **Mã phân tích**: Cho phép chọn mã phân tích cụ thể.
+- **Nhóm**: Lọc theo nhóm sinh viên.
+- **Mã học phần**: Lọc theo học phần.
+- **Lớp**: Lọc dữ liệu theo từng lớp học.
+- **Trợ giảng**: Lọc dữ liệu theo trợ giảng AI được gán cho học phần.
+- **Tên**: Lọc dữ liệu theo tên của sinh viên.
+- **Email**: Lọc dữ liệu theo email của sinh viên.
+
+#### 1.4.2.  Danh sách sinh viên làm bài
+- **Lớp**: Hiển thị lớp của sinh viên.
+- **Trợ giảng**: Hiển thị trợ giảng sinh viên tham gia làm bài.
+- **Email**, **Họ tên**: Hiển thị thông tin email, họ tên của sinh viên.
+- **Điểm cao nhất**: Điểm số cao nhất trong các lần làm bài của sinh viên.
+- **Điểm các bài**: Tổng hợp điểm số của các lần làm bài.
+-**Trạng thái**: Hiển thị trạng thái của bài tập đó (Đã hoàn thành, Đang làm).
+
+#### 1.4.3.  Danh sách sinh viên chưa làm bài
+- **Lớp**: Hiển thị lớp của sinh viên.
+- **Trợ giảng**: Hiển thị trợ giảng sinh viên tham gia làm bài.
+- **Email**, **Họ tên**: Hiển thị thông tin email, họ tên của sinh viên.
+
+#### 1.4.4. Tổng kết điểm cho môn học
+- **Lớp**: Hiển thị lớp của sinh viên.
+- **Email**, **Họ tên**: Hiển thị thông tin email, họ tên của sinh viên.
+- **avg_score_overall**: Điểm trung bình tất cả các bài làm của sinh viên.
+- **Các cột còn lại**: Mỗi cột đại diện cho một bài tập sinh viên đã làm và điểm số của bài tương ứng.
+
+#### 1.4.5. Tự học
+- Cung cấp dữ liệu để giảng viên giám sát quá trình tự học của từng sinh viên gồm tiến độ tự học của từng sinh viên, của từng lớp và điểm tự học của sinh viên ứng với mỗi trợ giảng, dữ liệu sẽ được tính toán dựa trên số slide sinh viên đã học, thời gian học so với deadline,...
+
+![Giao diện Giám sát tự học](/img/GV_img/GV_giamsattuhoc.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện Giám sát tự học.</em>
+</p>
+
 ## 2. Quản lý Lớp học
 Giảng viên/Giáo viên có thể xem danh sách các **`Lớp học`** có trong hệ thống và tìm kiếm thông tin Lớp theo tên.
 
-![Giao diện danh sách Lớp](/img/png/GV_dslop.png)
+![Giao diện danh sách Lớp](/img/GV_img/GV_lophoc.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện danh sách Lớp.</em>
@@ -254,37 +301,63 @@ Giảng viên/Giáo viên có thể xem báo cáo chi tiết về tiến độ v
 ### b. Thành viên
 Xem thông tin các sinh viên thuộc lớp học có trong hệ thống.
 
-![Giao diện quản trị danh sách sinh viên trong lớp học](/img/png/GV_dsthanhvienlop.png)
+![Giao diện quản trị danh sách sinh viên trong lớp học](/img/GV_img/GV_dsachlop.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện quản trị danh sách sinh viên trong lớp học.</em>
 </p>
 
-## 3. Phân tích
 
-### Thống kê toàn bộ hội thoại của sinh viên theo từng trợ lý có trong lớp học
-Tổng hợp dữ liệu từ tất cả các lớp học và trợ lý giảng viên/giáo viên phụ trách.
+## 3. Thiết lập hạn học tập cho lớp học
+- Chức năng thiết lập hạn này cho phép giáo viên tạo một deadline cho các lớp học tham gia vào học tập các trợ giảng của các học phần để giúp cả giảng viên và sinh viên đảm bảo được tiến độ học tập hợp lý cho từng chương, bài.
+- **Thiết lập cho từng lớp**: Giảng viên có thể thiết lập deadline cho từng lớp học khác nhau, giảng viên có thể thay đổi ngày tháng và giờ bắt đầu, kết thúc trợ giảng cho mỗi lớp khác nhau, sau đó cũng có thể tự động lên lịch cho các chương còn lại mà không cần làm thủ công.
+
+![Nút thiết lập deadline cho lớp học](/img/GV_img/GV_nutdeadline.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Nút thiết lập deadline cho lớp học.</em>
+</p>
+
+![Giao diện thiết lập deadline cho lớp học](/img/GV_img/GV_deadlinetungmon.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện thiết lập deadline cho lớp học.</em>
+</p>
+
+
+- **Thiết lập cho toàn bộ học phần**: Thay vì thiết lập deadline cho từng lớp và từng trợ giảng thuộc các học phần mình đang giảng dạy, giảng viên có thể thiết lập trực tiếp deadline cho học phần mình chọn và áp dụng lên tất cả lớp học mình đang giảng dạy.
+
+![Nút thiết lập deadline cho học phần](/img/GV_img/GV_nutdeadline2.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Nút thiết lập deadline cho học phần.</em>
+</p>
+
+![Giao diện thiết lập deadline cho học phần](/img/GV_img/GV_deadlinetoanbo.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện thiết lập deadline cho học phần.</em>
+</p>
+
+
+## 4. Phân tích
+
+<!-- ### Thống kê toàn bộ hội thoại của sinh viên theo từng trợ lý có trong lớp học
+Tổng hợp dữ liệu từ tất cả các lớp học và trợ lý giảng viên/giáo viên phụ trách. -->
 
 <!-- ![Giao diện thống kê Hội thoại của sinh viên](/img/png/thongkehoivao.png) -->
 
-<p style={{ textAlign: 'center' }}>
+<!-- <p style={{ textAlign: 'center' }}>
   <em>Giao diện thống kê Hội thoại của sinh viên.</em>
-</p>
+</p> -->
 
-### Thống kê theo từng lớp học
-Hiển thị thông tin chi tiết số lượng sinh viên của từng lớp, số lượng người đã tương tác của từng lớp.
+### Phân tích theo từng lớp học và học phần
+Hiển thị thông tin chi tiết số lượng sinh viên của từng lớp và điểm số theo học phần, số lượng người đã tương tác.
 
-<!-- ![Giao diện thống kê Lớp](/img/png/thongkelophoc.png) -->
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện thống kê Lớp.</em>
-</p>
-
-### Thống kê theo từng học phần
-Hiển thị thông tin số lượng người tương tác.
-
-<!-- ![Giao diện thống kê Học phần](/img/png/thongkehocphan.png) -->
+![Giao diện Phân tích Lớp](/img/GV_img/GV_phantichlop.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Giao diện thống kê Học phần.</em>
+  <em>Giao diện Phân tích theo Lớp và điểm số Học phần.</em>
 </p>
+
+
