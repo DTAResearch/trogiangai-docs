@@ -83,7 +83,7 @@ export default function HomepageFeatures(): ReactNode {
             <iframe
               width="100%"
               height="500"
-              src="https://www.youtube.com/embed/F1CGLSH_WXg"
+              src="https://www.youtube.com/embed/Df2m_G_ragg"
               title="Video giới thiệu chức năng Bài Giảng AI"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
