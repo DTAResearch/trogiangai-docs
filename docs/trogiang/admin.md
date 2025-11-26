@@ -14,7 +14,7 @@ Tài khoản Admin là tài khoản có quyền quản lý toàn bộ hệ thố
 ### 1.1. Thống kê theo Khoa
 Admin có thể xem báo cáo tổng hợp dữ liệu theo từng khoa, bao gồm tổng số sinh viên, số lượng sinh viên hoạt động, và mức độ tương tác chung. Các biểu đồ thể hiện sự phân bổ sinh viên theo khoa, giúp quản trị viên đánh giá hiệu quả sử dụng hệ thống theo từng đơn vị.
 
-![Thống kê theo Khoa](/img/png/tkkhoa.png)
+![Thống kê theo Khoa](/img/Admin_img/Ad_ptichkhoa.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Thống kê theo Khoa.</em>
@@ -23,7 +23,7 @@ Admin có thể xem báo cáo tổng hợp dữ liệu theo từng khoa, bao g�
 ### 1.2. Thống kê theo Ngành
 Giao diện này cung cấp thông tin chi tiết về số lượng sinh viên và hoạt động của họ theo từng ngành học. Các số liệu và biểu đồ cho thấy mức độ tương tác với các trợ giảng chuyên biệt, hỗ trợ phân tích xu hướng học tập theo ngành.
 
-![Thống kê theo Ngành](/img/png/tknganh.png)
+![Thống kê theo Ngành](/img/Admin_img/Ad_ptichnganh.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Thống kê theo Ngành.</em>
@@ -32,7 +32,7 @@ Giao diện này cung cấp thông tin chi tiết về số lượng sinh viên 
 ### 1.3. Thống kê theo CTĐT
 Admin có thể theo dõi báo cáo chi tiết về tiến độ học tập và tương tác của sinh viên theo từng chương trình đào tạo (CTĐT). Giao diện hiển thị số lượng sinh viên tham gia CTĐT, mức độ sử dụng trợ giảng, và các môn học liên quan, hỗ trợ đánh giá hiệu quả đào tạo theo chương trình.
 
-![Thống kê theo CTĐT](/img/png/tkctdt.png)
+![Thống kê theo CTĐT](/img/Admin_img/Ad_ptichCTDT.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Thống kê theo CTĐT.</em>
@@ -41,29 +41,12 @@ Admin có thể theo dõi báo cáo chi tiết về tiến độ học tập và
 ### 1.4. Thống kê theo Lớp
 Admin có thể theo dõi báo cáo chi tiết về tiến độ học tập và tương tác của từng lớp. Giao diện hiển thị số lượng sinh viên trong lớp, danh sách sinh viên, và mức độ tham gia, giúp đánh giá hiệu quả học tập theo từng lớp cụ thể.
 
-![Thống kê theo Lớp](/img/png/tklop.png)
+![Thống kê theo Lớp](/img/Admin_img/Ad_ptichlop.png)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Thống kê theo Lớp.</em>
 </p>
 
-### 1.5. Thống kê theo Trợ giảng
-Giao diện này thể hiện mức độ sử dụng và tương tác của sinh viên với từng trợ giảng AI, bao gồm số lượng tin nhắn và các môn học liên quan. Điều này hỗ trợ quản trị viên trong việc đánh giá hiệu quả của từng trợ giảng.
-
-![Thống kê theo Trợ giảng](/img/png/tktrogiang.png)
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện Thống kê theo Trợ giảng.</em>
-</p>
-
-### 1.6. Thống kê theo Hội thoại
-Liệt kê và phân tích các cuộc hội thoại giữa sinh viên và trợ giảng AI, bao gồm thông tin như thời gian, sinh viên tham gia, và số lượng tin nhắn. Giao diện này giúp xem lại chi tiết quá trình học tập và tương tác.
-
-![Thống kê theo Hội thoại](/img/png/tkhoithoai.png)
-
-<p style={{ textAlign: 'center' }}>
-  <em>Giao diện Thống kê theo Hội thoại.</em>
-</p>
 
 ## 2. Quản lý Khoa
 
