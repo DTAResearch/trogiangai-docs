@@ -83,12 +83,28 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
     Nếu sinh viên hỏi ngoài phạm vi môn học, hãy từ chối nhẹ nhàng và hướng họ quay lại nội dung liên quan.
     ```
     - Gợi ý hệ thống *(tuỳ chọn)*: Là câu hỏi hướng dẫn có sẵn cho sinh viên khi truy cập vào chat học tiếp và chat với trợ giảng.
-
-
 ![Giao diện tạo mới trợ giảng](/img/gif-new/taotrogiang.gif)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Tạo mới trợ giảng.</em>
+</p>
+    
+    - Lựa chọn ngôn ngữ cho bài kiểm tra: khi tạo cấu trúc đề kiểm tra giảng viên có thể lựa chọn ngôn ngữ mà AI sẽ sử dụng để tạo bài kiểm tra phù hợp với nhu cầu của môn học.
+
+
+![Lựa chọn ngôn ngữ cho bài kiểm tra](/img/GV_img/GV_ngongnuktra.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Lựa chọn ngôn ngữ cho bài kiểm tra.</em>
+</p>
+
+    - Lựa chọn ngôn ngữ cho bài kiểm tra: hỗ trợ giảng viên lựa chọn ngôn ngữ mà slide sẽ sử dụng. Giảng viên lựa chọn ngôn ngữ tương ứng mà mình muốn AI dùng để tạo slide.
+
+
+![Lựa chọn ngôn ngữ cho slide bài giảng](/img/GV_img/GV_ngonnguslide.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Lựa chọn ngôn ngữ cho slide bài giảng.</em>
 </p>
 
 - Phần **Bài đọc**: Hỗ trợ soạn nội dung bằng `Markdown` — giúp định dạng văn bản, chèn code, liên kết, bảng biểu,... *(Lưu ý chỉ có thể thêm Bài đọc sau khi tạo Trợ giảng).*
