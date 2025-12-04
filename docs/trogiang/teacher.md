@@ -83,6 +83,7 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
     Nếu sinh viên hỏi ngoài phạm vi môn học, hãy từ chối nhẹ nhàng và hướng họ quay lại nội dung liên quan.
     ```
     - Gợi ý hệ thống *(tuỳ chọn)*: Là câu hỏi hướng dẫn có sẵn cho sinh viên khi truy cập vào chat học tiếp và chat với trợ giảng.
+
 ![Giao diện tạo mới trợ giảng](/img/gif-new/taotrogiang.gif)
 
 <p style={{ textAlign: 'center' }}>
