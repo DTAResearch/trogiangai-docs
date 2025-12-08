@@ -29,8 +29,18 @@ Tài khoản Giảng viên/Giáo viên được thiết kế để hỗ trợ gi
 - **Quản lý Lớp học**
 - **Phân tích**
 
+**Lưu ý**
+
+Tài khoản giảng viên gồm có 2 nhóm phân quyền là giảng viên chỉnh sửa và giảng viên giảng dạy. Trong đó:
+- **Giảng viên chỉnh sửa**: có quyền chỉnh sửa các học phần mình được phân quyền chỉnh sửa, được phép thêm, sửa, xóa các học phần và trợ giảng thuộc học phần đó.
+- **Giảng viên giảng dạy**: giảng viên giảng dạy được thiết lập giờ học tập cho các bài giảng và các học phần mình được phân quyền, gồm có thiết lập deadline cho toàn bộ học phần và cho từng trợ giảng, với hai điều kiện bắt buộc là: giảng viên phải được phân quyền để thiết lập và thứ hai là lớp học mà giảng viên muốn thiết lập deadline phải tham gia vào học phần đó.
+
 :::
-## 1. Quản lý Học phần
+
+
+
+
+## 1. Quản lý Học phần (Dành cho giảng viên chỉnh sửa)
 
 Xem danh sách các **`Học phần`** giảng viên/giáo viên được giao có trong hệ thống.
 
@@ -83,6 +93,32 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
     Nếu sinh viên hỏi ngoài phạm vi môn học, hãy từ chối nhẹ nhàng và hướng họ quay lại nội dung liên quan.
     ```
     - Gợi ý hệ thống *(tuỳ chọn)*: Là câu hỏi hướng dẫn có sẵn cho sinh viên khi truy cập vào chat học tiếp và chat với trợ giảng.
+  - ##### Hướng dẫn tạo mới trợ giảng
+
+    ###### 1. Nhập tên trợ giảng
+    - Giảng viên nhập tên trợ giảng ở ô **“Tên trợ giảng”**.
+
+    ###### 2. Lựa chọn học liệu
+    Giảng viên có thể:
+    - Chọn học liệu có sẵn.
+    - Hoặc tự tải học liệu lên theo hướng dẫn (hỗ trợ các định dạng: PDF, PPTX, DOCX,...).
+
+    ###### 3. Cấu hình bài tập
+    Giảng viên tùy chỉnh:
+    - Số câu hỏi cho từng nhóm câu.
+    - Điểm số của mỗi câu hỏi.
+    - Ngôn ngữ sử dụng trong bài tập.
+    - Số đề muốn tạo.
+
+    > Nếu không muốn tạo bài kiểm tra, hãy bỏ dấu tick ở ô **“Tạo đề kiểm tra”**.
+
+    ###### 4. Lựa chọn tài liệu và ngôn ngữ để tạo slide bài giảng
+    - Tài liệu lấy từ học liệu đã chọn hoặc đã tải lên.
+    - Có thể là: slide PPTX, DOCX, PDF,...
+    - Ngôn ngữ tùy chỉnh theo yêu cầu.
+
+    ###### 5. Tạo mới
+    - Sau khi hoàn tất các thông tin cần thiết, click nút **“Tạo mới”** để tạo slide bài giảng.
 
 ![Giao diện tạo mới trợ giảng](/img/gif-new/taotrogiang.gif)
 
@@ -90,23 +126,43 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
   <em>Giao diện Tạo mới trợ giảng.</em>
 </p>
     
-    - Lựa chọn ngôn ngữ cho bài kiểm tra: khi tạo cấu trúc đề kiểm tra giảng viên có thể lựa chọn ngôn ngữ mà AI sẽ sử dụng để tạo bài kiểm tra phù hợp với nhu cầu của môn học.
+- Sau khi tạo trợ giảng thành công, thẻ trợ giảng sẽ có 3 tab “Trợ giảng AI”, “Bài đọc”, “Bài tập” tương ứng với phần giảng viên vừa tạo.
 
-
-![Lựa chọn ngôn ngữ cho bài kiểm tra](/img/GV_img/GV_ngongnuktra.png)
-
-<p style={{ textAlign: 'center' }}>
-  <em>Lựa chọn ngôn ngữ cho bài kiểm tra.</em>
-</p>
-
-    - Lựa chọn ngôn ngữ cho bài kiểm tra: hỗ trợ giảng viên lựa chọn ngôn ngữ mà slide sẽ sử dụng. Giảng viên lựa chọn ngôn ngữ tương ứng mà mình muốn AI dùng để tạo slide.
-
-
-![Lựa chọn ngôn ngữ cho slide bài giảng](/img/GV_img/GV_ngonnguslide.png)
+![Thẻ trợ giảng sau khi tạo thành công](/img/GV_img/kiemtrathongtin.png)
 
 <p style={{ textAlign: 'center' }}>
-  <em>Lựa chọn ngôn ngữ cho slide bài giảng.</em>
+  <em>Thẻ trợ giảng sau khi tạo thành công.</em>
 </p>
+
+- Phần **Bài giảng AI**: Sau khi tạo thành công, phần bài giảng AI sẽ gồm có nội dung các slide, phần tổng hợp nội dung chính của từng slide và phần câu hỏi của mỗi slide tương ứng.
+  
+![Slide bài giảng AI](/img/GV_img/GV_slide.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Slide bài giảng AI.</em>
+</p>
+
+![Câu hỏi cho từng slide](/img/GV_img/GV_cauhoislide.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Câu hỏi cho từng slide.</em>
+</p>
+
+
+- Phần **Bài tập**: Giảng viên click chọn nút bài tập để kiểm tra lại thông tin bài tập được tạo với những thông tin đã được lựa chọn trước đó (số câu hỏi, ngôn ngữ, điểm số,...)
+
+![Giao diện sau khi click chọn nút bài tập](/img/GV_img/GV_baitapmoi.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Giao diện sau khi click chọn nút bài tập (click chọn bắt đầu làm bài để kiểm tra bài tập vừa tạo).</em>
+</p>
+
+![Phần câu hỏi bài tập](/img/GV_img/GV_checkbaitap.png)
+
+<p style={{ textAlign: 'center' }}>
+  <em>Phần câu hỏi bài tập vừa tạo với số câu hỏi và ngôn ngữ đã được chọn từ trước.</em>
+</p>
+
 
 - Phần **Bài đọc**: Hỗ trợ soạn nội dung bằng `Markdown` — giúp định dạng văn bản, chèn code, liên kết, bảng biểu,... *(Lưu ý chỉ có thể thêm Bài đọc sau khi tạo Trợ giảng).*
 
@@ -171,19 +227,30 @@ Bao gồm các thông tin: cơ bản, nâng cao, bài giảng
 
 - **Tùy chỉnh nội dung**: Người dùng có thể để AI tự động tạo bài giảng phù hợp, bao gồm văn bản, câu hỏi tương tác và ví dụ minh họa thông qua hình ảnh hoặc nhập nội dung chi tiết.
 
-- **Hướng dẫn sử dụng**:
+      ![Giao diện trang chỉnh sửa slide bài giảng AI](/img/GV_img/GV_chinhsuaslide.png)
+      <p style={{ textAlign: 'center' }}>
+        <em>Giao diện trang chỉnh sửa slide bài giảng AI.</em>
+      </p>
+  - Giảng viên có thể kiểm tra danh sách câu hỏi của slide bài giảng bằng cách click vào nút “Danh sách câu hỏi”.
+      ![Danh sách câu hỏi của slide bài giảng](/img/GV_img/GV_cauhoislide.png)
+      <p style={{ textAlign: 'center' }}>
+        <em>Danh sách câu hỏi của slide bài giảng.</em>
+      </p>
 
-  **1.** Truy cập giao diện Bài giảng AI và nhấp vào nút **`Thêm bài giảng mới`** hoặc **`Tải ảnh lên`**.
+
+- **Hướng dẫn thêm mới một slide bài giảng**:
+
+  **1.** Truy cập giao diện Bài giảng AI và nhấp vào nút **`Thêm bài giảng mới (Dấu cộng bên trên số đếm của các slide)`** hoặc **`Tải ảnh lên`**.
       ![Giao diện Tạo mới Bài giảng AI](/img/GV_img/GV_taomoibaigiang.png)
       <p style={{ textAlign: 'center' }}>
         <em>Giao diện Tạo mới Bài giảng AI.</em>
       </p>
   **2.** Tải lên **Hình ảnh** hoặc **file PowerPoint** (định dạng `JPEG, JPG, PNG, PPTX` tối đa 10 MB).
 
-   ![Giao diện Upload file PowerPoint](/img/png/upload_pptx.png)
+   ![Giao diện Upload file PowerPoint](/img/gif-new/chinhsuaslide.gif)
 
     <p style={{ textAlign: 'center' }}>
-      <em>Giao diện Upload file PowerPoint.</em>
+      <em>Upload file PowerPoint.</em>
     </p>
 
   **3.** Chỉnh sửa **Tiêu đề** cho bài giảng trong trường tương ứng.
@@ -325,7 +392,7 @@ Xem thông tin các sinh viên thuộc lớp học có trong hệ thống.
 </p>
 
 
-## 3. Thiết lập hạn học tập cho lớp học
+## 3. Thiết lập hạn học tập cho lớp học (Dành cho giảng viên giảng dạy)
 - Chức năng thiết lập hạn này cho phép giáo viên tạo một deadline cho các lớp học tham gia vào học tập các trợ giảng của các học phần để giúp cả giảng viên và sinh viên đảm bảo được tiến độ học tập hợp lý cho từng chương, bài.
 - **Thiết lập cho từng lớp**: Giảng viên có thể thiết lập deadline cho từng lớp học khác nhau, giảng viên có thể thay đổi ngày tháng và giờ bắt đầu, kết thúc trợ giảng cho mỗi lớp khác nhau, sau đó cũng có thể tự động lên lịch cho các chương còn lại mà không cần làm thủ công.
 
@@ -335,7 +402,7 @@ Xem thông tin các sinh viên thuộc lớp học có trong hệ thống.
   <em>Nút thiết lập deadline cho lớp học.</em>
 </p>
 
-![Giao diện thiết lập deadline cho lớp học](/img/GV_img/GV_deadlinetungmon.png)
+![Giao diện thiết lập deadline cho lớp học](/img/gif-new/deadlinetg.gif)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện thiết lập deadline cho lớp học.</em>
@@ -350,7 +417,7 @@ Xem thông tin các sinh viên thuộc lớp học có trong hệ thống.
   <em>Nút thiết lập deadline cho học phần.</em>
 </p>
 
-![Giao diện thiết lập deadline cho học phần](/img/GV_img/GV_deadlinetoanbo.png)
+![Giao diện thiết lập deadline cho học phần](/img/gif-new/deadlinehp.gif)
 
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện thiết lập deadline cho học phần.</em>
