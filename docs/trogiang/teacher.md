@@ -520,22 +520,19 @@ Tính năng này giúp giảng viên theo dõi nỗ lực tự học của sinh 
 
 - Giảng viên có thể xem tiến độ này theo từng sinh viên hoặc trung bình của cả lớp.
 
-    **Công thức tính điểm chuyên cần**
-
-      Hệ thống tự động tính toán điểm chuyên cần của sinh viên dựa trên tiến độ xem slide và thời hạn (deadline) đã được thiết lập. Công thức áp dụng hệ số giảm điểm đối với các nội dung hoàn thành muộn.
-
-      > **Công thức tính:**
-      >
-      > `Điểm = (số slide đúng hạn)/tổng số slide * hệ số phat*10`
-      > `Hệ số phạt =( số slide đúng hạn + số slide muộn nhưng trước thời gian kết thúc học phần)/tổng số slide`
-
+    
 
 ![Giao diện Giám sát tự học](/img/GV_img/GV_giamsattuhoc.png)
-
-
-
 <p style={{ textAlign: 'center' }}>
 
   <em>Giao diện Giám sát hoạt động tự học.</em>
 
 </p>
+
+  **Công thức tính điểm chuyên cần**
+
+      Hệ thống tự động tính toán điểm chuyên cần của sinh viên dựa trên tiến độ xem slide và thời hạn (deadline) đã được thiết lập. Công thức áp dụng hệ số giảm điểm đối với các nội dung hoàn thành muộn.
+
+      ![Công thức tính điểm chuyên cần](/img/GV_img/image.png)
+
+
