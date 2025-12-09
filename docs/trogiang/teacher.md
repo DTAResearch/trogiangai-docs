@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# Chức năng của Giảng viên/Giáo viên
+# Chức năng của Giảng viên
 
 import GoalBox from '@site/src/components/GoalBox';
 
@@ -23,7 +23,7 @@ Hệ thống Trợ giảng AI được thiết kế để **hỗ trợ Giảng v
 
 :::info
 
-Tài khoản Giảng viên/Giáo viên được thiết kế để hỗ trợ giảng viên/giáo viên trong việc quản lý lớp học và trợ lý tương ứng mà họ phụ trách. Các tính năng bao gồm:
+Tài khoản Giảng viên được thiết kế để hỗ trợ giảng viên trong việc quản lý lớp học và trợ lý tương ứng mà họ phụ trách. Các tính năng bao gồm:
 
 - **Quản lý Học phần**
 - **Quản lý Lớp học**
@@ -48,7 +48,7 @@ Giảng viên truy cập vào hệ thống sẽ thấy danh sách các **`Học 
   <em>Giao diện danh sách Học phần.</em>
 </p>
 
-Giảng viên/Giáo viên có thể xem danh sách các **`Trợ giảng`** có trong học phần và tìm kiếm thông tin **`Trợ giảng`** theo tên.
+Giảng viên có thể xem danh sách các **`Trợ giảng`** có trong học phần và tìm kiếm thông tin **`Trợ giảng`** theo tên.
 
 ![Giao diện quản trị danh sách Trợ giảng](/img/GV_img/GV_dstrogiang.png)
 
@@ -526,13 +526,8 @@ Tính năng này giúp giảng viên theo dõi nỗ lực tự học của sinh 
 
       > **Công thức tính:**
       >
-      > `Điểm chuyên cần = [ S_đúng_hạn + (S_muộn × K_phạt) ] / S_tổng × 10`
-
-      **Trong đó:**
-      - **S_đúng_hạn**: Số lượng slide sinh viên hoàn thành trước deadline.
-      - **S_muộn**: Số lượng slide hoàn thành sau deadline (nhưng trước khi kết thúc học phần).
-      - **K_phạt**: Hệ số phạt cho việc học muộn (Ví dụ: `0.5` nghĩa là chỉ được tính 50% điểm cho slide đó).
-      - **S_tổng**: Tổng số slide bắt buộc của bài học.
+      > `Điểm = (số slide đúng hạn)/tổng số slide * hệ số phat*10`
+      > `Hệ số phạt =( số slide đúng hạn + số slide muộn nhưng trước thời gian kết thúc học phần)/tổng số slide`
 
 
 ![Giao diện Giám sát tự học](/img/GV_img/GV_giamsattuhoc.png)
