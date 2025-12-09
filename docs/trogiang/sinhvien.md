@@ -152,10 +152,7 @@ Sau khi Sinh viên hoàn thành hết các câu kiểm tra trợ lý AI sẽ ch�
 
       Hệ thống tự động tính toán điểm chuyên cần của sinh viên dựa trên tiến độ xem slide và thời hạn (deadline) đã được thiết lập. Công thức áp dụng hệ số giảm điểm đối với các nội dung hoàn thành muộn.
 
-      > **Công thức tính:**
-      >
-      > `Điểm = (số slide đúng hạn)/tổng số slide * hệ số phat*10`
-      > `Hệ số phạt =( số slide đúng hạn + số slide muộn nhưng trước thời gian kết thúc học phần)/tổng số slide`
+      ![Công thức tính điểm chuyên cần](/img/GV_img/image.png)
   
 - **Hướng dẫn sử dụng**:
   1. Truy cập danh sách **Trợ giảng** từ giao diện Quản lý Học phần.
