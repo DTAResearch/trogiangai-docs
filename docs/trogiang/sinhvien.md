@@ -148,7 +148,20 @@ Sau khi Sinh viên hoàn thành hết các câu kiểm tra trợ lý AI sẽ ch�
         <em>Giao diện kiểm tra tiến độ học tập.</em>
       </p>
 
+    **Công thức tính điểm chuyên cần (Tự học)**
 
+      Hệ thống tự động tính toán điểm chuyên cần của sinh viên dựa trên tiến độ xem slide và thời hạn (deadline) đã được thiết lập. Công thức áp dụng hệ số giảm điểm đối với các nội dung hoàn thành muộn.
+
+      > **Công thức tính:**
+      >
+      > `Điểm chuyên cần = [ S_đúng_hạn + (S_muộn × K_phạt) ] / S_tổng × 10`
+
+      **Trong đó:**
+      - **S_đúng_hạn**: Số lượng slide sinh viên hoàn thành trước deadline.
+      - **S_muộn**: Số lượng slide hoàn thành sau deadline (nhưng trước khi kết thúc học phần).
+      - **K_phạt**: Hệ số phạt cho việc học muộn (Ví dụ: `0.5` nghĩa là chỉ được tính 50% điểm cho slide đó).
+      - **S_tổng**: Tổng số slide bắt buộc của bài học.
+  
 - **Hướng dẫn sử dụng**:
   1. Truy cập danh sách **Trợ giảng** từ giao diện Quản lý Học phần.
   2. Chọn bài giảng mong muốn từ danh sách hoặc tìm kiếm bằng từ khóa.

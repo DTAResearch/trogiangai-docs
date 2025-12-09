@@ -79,7 +79,7 @@ Khi truy cập vào chi tiết một Học phần và chọn một Trợ giảng
 </p>
 
 2.  **Bài đọc:** Tài liệu dạng văn bản để sinh viên đọc thêm.
-   
+
 3.  **Bài tập (Bài kiểm tra):** Các bộ đề để đánh giá kiến thức.
 
 ![Giao diện sau khi click chọn nút bài tập](/img/GV_img/GV_baitapmoi.png)
@@ -97,7 +97,7 @@ Khi truy cập vào chi tiết một Học phần và chọn một Trợ giảng
 
 ---
 
-## 2. Giáo viên chỉnh sửa
+## 2. Giảng viên chỉnh sửa
 
 Phân hệ này dành cho việc xây dựng nội dung, cấu hình trợ giảng và chuẩn bị học liệu trước khi lớp học bắt đầu.
 
@@ -148,6 +148,50 @@ Sau khi tạo trợ giảng xong, giảng viên vào tab **"Bài đọc"** để
 <p style={{ textAlign: 'center' }}>
   <em>Giao diện Thêm nội dung Bài đọc.</em>
 </p>
+    **Giảng viên có thể sử dụng gemini và các đoạn prompt phù hợp để sinh các đoạn bài đọc** ([Gemini](https://gemini.google.com/)).
+    #### Gợi ý Prompt mẫu để xây dựng Bài đọc hiệu quả
+
+    Để giúp thầy cô tiết kiệm thời gian soạn thảo mà vẫn có nội dung chất lượng, dưới đây là một số mẫu Prompt (câu lệnh) gợi ý để yêu cầu AI viết bài đọc:
+
+    **Mẫu 1: Mở rộng nội dung từ Slide bài giảng**  
+    Dùng khi thầy cô muốn biến các gạch đầu dòng khô khan trên slide thành một bài văn hoàn chỉnh, dễ hiểu.
+
+    Dựa trên các ý chính sau đây của bài học về [Tên chủ đề]:
+    - [Ý chính 1 trên slide]
+    - [Ý chính 2 trên slide]
+    - [Ý chính 3 trên slide]
+
+    Hãy viết một tài liệu đọc thêm chi tiết, giải thích rõ từng ý một. Sử dụng văn phong sư phạm, dễ hiểu. Hãy bổ sung thêm 1 ví dụ minh họa cụ thể cho mỗi ý để sinh viên dễ hình dung. Trình bày dưới dạng Markdown.
+
+    ---
+
+    **Mẫu 2: Giải thích chuyên sâu về một khái niệm khó**  
+    Dùng khi trong bài có một khái niệm trừu tượng mà slide không thể diễn giải hết.
+
+    Hãy đóng vai một giáo sư chuyên ngành [Tên chuyên ngành]. Hãy viết một bài đọc chuyên sâu giải thích về khái niệm [Tên khái niệm].  
+    Bài viết cần đi từ định nghĩa cơ bản đến phân tích chuyên sâu, so sánh với các khái niệm tương đồng và nêu rõ ưu/nhược điểm.  
+    Cuối bài hãy tóm tắt lại bằng một bảng so sánh để sinh viên dễ ôn tập.
+
+    ---
+
+    **Mẫu 3: Liên hệ thực tế và Case Study**  
+    Dùng để tăng tính hấp dẫn, giúp sinh viên thấy được ứng dụng thực tế của bài học.
+
+    Viết một bài đọc về ứng dụng của [Tên bài học/Công nghệ/Lý thuyết] trong thực tế hiện nay.  
+    Hãy đưa ra 2–3 case study (tình huống nghiên cứu) cụ thể tại các doanh nghiệp hoặc dự án thực tế.  
+    Phân tích xem họ đã áp dụng lý thuyết này như thế nào và kết quả đạt được ra sao.
+
+    ---
+
+    **Mẫu 4: Tổng hợp kiến thức và Câu hỏi tư duy**  
+    Dùng cho bài đọc tổng kết chương.
+
+    Hãy tổng hợp lại toàn bộ kiến thức quan trọng của chương [Tên chương].  
+    Sau đó, hãy gợi ý 5 câu hỏi tư duy (không phải câu hỏi trắc nghiệm) để sinh viên tự suy ngẫm và trả lời nhằm hiểu sâu hơn về bài học.  
+    Kèm theo gợi ý trả lời ngắn gọn cho từng câu hỏi.
+
+    
+
 
 ### 2.3. Hướng dẫn chỉnh sửa Bài kiểm tra
 Sau khi tạo xong, giảng viên vào tab **"Bài tập"** để kiểm tra và tinh chỉnh lại bộ đề.
@@ -270,7 +314,7 @@ Giảng viên vào tab **"Trợ giảng AI"** để rà soát lại nội dung s
 
 ---
 
-## 3. Giáo viên giảng dạy
+## 3. Giảng viên giảng dạy
 
 Phân hệ này dành cho việc vận hành lớp học, giao nhiệm vụ và quản lý tiến độ.
 
@@ -476,6 +520,19 @@ Tính năng này giúp giảng viên theo dõi nỗ lực tự học của sinh 
 
 - Giảng viên có thể xem tiến độ này theo từng sinh viên hoặc trung bình của cả lớp.
 
+    **Công thức tính điểm chuyên cần**
+
+      Hệ thống tự động tính toán điểm chuyên cần của sinh viên dựa trên tiến độ xem slide và thời hạn (deadline) đã được thiết lập. Công thức áp dụng hệ số giảm điểm đối với các nội dung hoàn thành muộn.
+
+      > **Công thức tính:**
+      >
+      > `Điểm chuyên cần = [ S_đúng_hạn + (S_muộn × K_phạt) ] / S_tổng × 10`
+
+      **Trong đó:**
+      - **S_đúng_hạn**: Số lượng slide sinh viên hoàn thành trước deadline.
+      - **S_muộn**: Số lượng slide hoàn thành sau deadline (nhưng trước khi kết thúc học phần).
+      - **K_phạt**: Hệ số phạt cho việc học muộn (Ví dụ: `0.5` nghĩa là chỉ được tính 50% điểm cho slide đó).
+      - **S_tổng**: Tổng số slide bắt buộc của bài học.
 
 
 ![Giao diện Giám sát tự học](/img/GV_img/GV_giamsattuhoc.png)
