@@ -11,7 +11,7 @@ const config: Config = {
 
   title: 'Trợ giảng AI',
   tagline: 'Như một "giảng viên ảo", hệ thống hỗ trợ sinh viên tự học theo học phần, luyện tập qua bài tập và bài kiểm tra, đồng thời trả lời thắc mắc và gợi ý nội dung trọng tâm.',
-  favicon: 'img/ico/logo.ico',
+  favicon: 'img/ico/logo2.ico',
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -74,12 +74,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/ico/logo.ico',
+    image: 'img/ico/logo2.ico',
     navbar: {
       title: 'Trợ giảng AI',
       logo: {
         alt: 'Tro giang AI Logo',
-        src: 'img/ico/logo.ico',
+        src: 'img/ico/logo2.ico',
       },
       items: [
         {

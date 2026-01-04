@@ -81,8 +81,8 @@ export default function HomepageFeatures(): ReactNode {
           <Heading as="h2">Video giới thiệu chức năng Bài Giảng AI</Heading>
           <div className="margin-top--md">
             <iframe
-              width="100%"
-              height="100%"
+              width="1420"
+              height="800"
               src="https://www.youtube.com/embed/3rVD8ruPAcc"
               title="Video giới thiệu chức năng Bài Giảng AI"
               frameBorder="0"

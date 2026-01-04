@@ -12,13 +12,12 @@ Hệ thống bao gồm ba loại tài khoản chính: Admin, Giáo viên, Học 
 :::info
 
 Hướng dẫn truy cập:
-Admin: Đăng nhập tại [trogiang.hoctiep.com](https://trogiang.hoctiep.com/) để quản lý hệ thống.
+Admin: Đăng nhập tại [edux.cmcu.edu.vn](https://edux.cmcu.edu.vn) để quản lý hệ thống.
 
-Giáo viên: Đăng nhập tại [trogiang.hoctiep.com](https://trogiang.hoctiep.com/) để quản lý lớp học và môn học.
+Giáo viên: Đăng nhập tại [edux.cmcu.edu.vn](https://edux.cmcu.edu.vn) để quản lý lớp học và môn học.
 
 Sinh viên:
-- Đăng nhập tại [trogiang.hoctiep.com](https://trogiang.hoctiep.com/) để quản lý lớp học và môn học.
-- Truy cập [chat.hoctiep.com](https://chat.hoctiep.com/) để học tập trực tuyến.
+- Đăng nhập tại [edux.cmcu.edu.vn](https://edux.cmcu.edu.vn) để quản lý lớp học và môn học.
 
 :::
 
