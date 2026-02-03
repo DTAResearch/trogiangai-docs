@@ -342,6 +342,91 @@ Cho phép linh hoạt thời gian với từng đối tượng lớp học cụ 
   <em>Giao diện thiết lập deadline chi tiết cho từng lớp.</em>
 </p>
 
+### 3.3. Giảng viên tạo bài tập thủ công
+**1. Cấu hình và Tạo đề bài (Assignment Configuration)**
+
+Cho phép giảng viên thiết lập các bài tập dạng tự luận hoặc nộp file đính kèm.
+
+**Thông tin chung**
+- Giảng viên nhập tiêu đề bài tập, thời gian làm bài (phút) và tổng điểm.
+
+**Nội dung câu hỏi**
+- Hệ thống hỗ trợ tạo nhiều câu hỏi trong một đề.
+- Mỗi câu hỏi cho phép nhập nội dung văn bản và đính kèm file đề bài (PDF, hình ảnh) để sinh viên tham khảo.
+- Thiết lập thang điểm riêng cho từng câu.
+
+**Lưu trữ**
+- Sau khi cấu hình xong, bài tập được lưu vào danh sách bài tập.
+- Giảng viên có thể bật/tắt trạng thái hiển thị cho sinh viên.
+
+![Giao diện tạo bài tập ](/img/GV_img/GV_taobaitap.jpg)
+
+<p style={{ textAlign: 'center' }}>
+
+  <em>Giao diện tạo bài tập.</em>
+
+</p>
+
+![Giao diện quản lý danh sách bài tập ](/img/GV_img/GV_dsachbaitap.jpg)
+
+<p style={{ textAlign: 'center' }}>
+
+  <em>Giao diện quản lý danh sách bài tập.</em>
+
+</p>
+
+**2. Quản lý danh sách bài nộp (Submission Management)**
+
+**Hiển thị dạng bảng**
+- Liệt kê danh sách sinh viên với các cột thông tin:
+  - Tên sinh viên
+  - Email
+  - Lớp
+  - Tên đề bài
+  - Thời gian nộp
+
+**Trạng thái bài làm**
+- Hiển thị rõ ràng trạng thái bài làm (ví dụ: *Chờ chấm*) để giảng viên biết cần xử lý bài nào.
+
+**Thao tác**
+- Nút chức năng **Chấm bài** cho phép truy cập trực tiếp vào giao diện chấm điểm chi tiết của từng sinh viên.
+
+![Giao diện quản lý danh sách bài nộp](/img/GV_img/GV_qlydanhsachlambai.jpg)
+
+<p style={{ textAlign: 'center' }}>
+
+  <em>Giao diện quản lý danh sách bài nộp.</em>
+
+</p>
+
+**3. Giao diện Chấm điểm & Phản hồi (Grading Interface & Feedback)**
+
+
+**Bố cục màn hình (Split View Layout)**
+
+**Panel Trái – Thông tin & Nhập liệu**
+- Hiển thị nội dung câu hỏi và file đề bài gốc.
+- Hiển thị câu trả lời của sinh viên và danh sách file sinh viên đã nộp.
+- Khu vực nhập điểm (*Score Input*) và ô nhập nhận xét/góp ý (*Feedback*) cho từng câu hỏi.
+
+**Panel Phải – File Previewer (Xem trước tài liệu)**
+- Hiển thị nội dung file bài làm của sinh viên (PDF, hình ảnh).
+- Khi giảng viên nhấp vào file đính kèm ở Panel Trái, nội dung sẽ lập tức hiển thị chi tiết tại Panel Phải.
+- Giảng viên không cần tải file về máy, giúp việc đối chiếu và chấm điểm diễn ra liền mạch.
+
+**Cập nhật kết quả**
+- Hệ thống tự động tính tổng điểm dựa trên các điểm thành phần đã nhập.
+- Nút **Lưu điểm** sẽ ghi nhận kết quả vào hệ thống và cập nhật trạng thái bài làm của sinh viên sang **Đã chấm**.
+
+![Giao diện chấm điểm & nhận xét](/img/GV_img/GV_Chamdiem.jpg)
+
+<p style={{ textAlign: 'center' }}>
+
+  <em>Giao diện chấm điểm & nhận xét.</em>
+
+</p>
+
+
 ## 4. Phân tích, Quản lý Lớp học và Học phần
 
 
@@ -529,11 +614,30 @@ Tính năng này giúp giảng viên theo dõi nỗ lực tự học của sinh 
 
 </p>
 
-  **Công thức tính điểm chuyên cần**
+**Bảng điểm**
 
-      Hệ thống tự động tính toán điểm chuyên cần của sinh viên dựa trên tiến độ xem slide và thời hạn (deadline) đã được thiết lập. Công thức áp dụng hệ số giảm điểm đối với các nội dung hoàn thành muộn.
+Chức năng **Bảng điểm** cho phép giảng viên và trợ giảng theo dõi, quản lý kết quả học tập của sinh viên theo từng lớp học phần một cách trực quan và tập trung. Bảng hiển thị đầy đủ thông tin sinh viên cùng các thành phần điểm được hệ thống tự động tổng hợp và tính toán.
 
-      ![Công thức tính điểm chuyên cần](/img/GV_img/image.png)
+Trong đó, **Điểm tự học** là điểm chuyên cần của sinh viên, được hệ thống **tính dựa trên tiến độ xem slide bài giảng và thời hạn (deadline)** theo công thức đã được quy định.
+
+**Điểm trung bình các bài tập** là điểm trung bình của toàn bộ các bài tập mà sinh viên đã thực hiện trong **phần Bài tập** của từng bài giảng thuộc học phần. Điểm số này được hệ thống tổng hợp tự động từ kết quả chấm điểm của các bài tập thành phần, giúp giảng viên nhanh chóng đánh giá mức độ nắm vững kiến thức và khả năng vận dụng của sinh viên.
+
+Chức năng Bảng điểm hỗ trợ lọc dữ liệu theo lớp học phần, sinh viên và email, đồng thời cho phép xuất dữ liệu và chỉnh sửa khi cần thiết, góp phần tối ưu hóa công tác quản lý và đánh giá kết quả học tập.
+
+![Giao diện bảng điểm của sinh viên theo lớp](/img/GV_img/GV_diemso.png)
+
+<p style={{ textAlign: 'center' }}>
+
+  <em>Giao diện bảng điểm của sinh viên theo lớp.</em>
+
+</p>
+
+
+  **Công thức tính điểm tự học**
+
+      Hệ thống tự động tính toán điểm tự học của sinh viên dựa trên tiến độ xem slide và thời hạn (deadline) đã được thiết lập. Công thức áp dụng hệ số giảm điểm đối với các nội dung hoàn thành muộn.
+
+      ![Công thức tính điểm tự học](/img/GV_img/image.png)
 
 
 

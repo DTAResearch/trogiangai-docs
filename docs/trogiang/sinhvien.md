@@ -162,3 +162,56 @@ Sau khi Sinh viên hoàn thành hết các câu kiểm tra trợ lý AI sẽ ch�
   5. Bật audio để nghe trực tiếp nội dung bài giảng.
   6. Trả lời câu hỏi ôn tập để chuyển sang slide kế tiếp.
 
+
+
+## 3. Làm bài tập và Theo dõi Kết quả
+### 3.1. Làm bài tập
+Khi vào một bài tập, sinh viên sẽ thấy đầy đủ đề bài, tổng điểm và các câu hỏi tương ứng.
+
+- Mỗi câu hỏi được hiển thị riêng biệt.
+- Sinh viên có thể xem trực tiếp tài liệu đính kèm (PDF, hình ảnh).
+- Có thể trả lời bằng cách:
+  - Nhập nội dung trực tiếp vào ô trả lời.
+  - Upload file bài làm (ảnh hoặc PDF) nếu đề bài yêu cầu.
+
+Sau khi hoàn thành, nhấn **Nộp bài** để gửi bài làm lên hệ thống.
+
+![Giao diện làm bài tập](/img/SV_img/SV_lambai.jpg)
+      <p style={{ textAlign: 'center' }}>
+        <em>Giao diện làm bài tập.</em>
+      </p>
+
+### 3.2. Theo dõi trạng thái bài nộp
+Sau khi nộp bài, sinh viên có thể theo dõi trạng thái chấm điểm:
+
+- **Chờ chấm điểm:**  
+  Bài đã được nộp thành công và đang đợi giảng viên chấm.
+- **Đã chấm điểm:**  
+  Bài đã được chấm xong, hiển thị tổng điểm đạt được.
+
+Hệ thống cũng hiển thị thời gian nộp bài và thời gian chấm để đảm bảo minh bạch.
+
+![Giao diện chờ chấm điểm](/img/SV_img/SV_chodiem.jpg)
+      <p style={{ textAlign: 'center' }}>
+        <em>Giao diện chờ chấm điểm.</em>
+      </p>
+
+![Giao diện xem điểm](/img/SV_img/SV_xemdiem.jpg)
+      <p style={{ textAlign: 'center' }}>
+        <em>Giao diện xem điểm.</em>
+      </p>
+      
+      
+
+### 3.3. Xem kết quả và nhận xét
+Khi bài đã được chấm, sinh viên có thể:
+
+- Xem lại toàn bộ đề bài và bài làm đã nộp.
+- Xem điểm chi tiết cho từng câu hỏi.
+- Đọc nhận xét của giảng viên (nếu có) để rút kinh nghiệm cho các bài học tiếp theo.
+
+
+![Giao diện xem kết quả và nhận xét](/img/SV_img/SV_xemlaibai.jpg)
+      <p style={{ textAlign: 'center' }}>
+        <em>Giao diện xem kết quả và nhận xét.</em>
+      </p>
